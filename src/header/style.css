@@ -32,13 +32,17 @@ body {
 }
 
 .nav-link {
-  color: white;
+  background: linear-gradient(to right,#c5c5c5, rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 22px;
   font-family: "Raleway", sans-serif;
 }
 
 .nav-link:hover {
-  color: rgb(245, 176, 65);
+  background: linear-gradient(to right,rgb(245, 176, 65), rgba(245, 176, 65, 0.658));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 22px;
   font-family: "Raleway", sans-serif;
 }

@@ -40,19 +40,19 @@ export default function Header(){
               <div class="collapse navbar-collapse float-right" id="menu">
                   <ul class="navbar-nav">
 
-                      <li class="nav-item mx-5 gradient-white">
+                      <li class="nav-item mx-5">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">Kaizen 2023</a>
                       </li>
 
-                      <li class="nav-item mx-4 gradient-white">
+                      <li class="nav-item mx-4">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">Home</a>
                       </li>
 
-                      <li class="nav-item mx-4 gradient-white">
+                      <li class="nav-item mx-4">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">About</a>
                       </li>
 
-                      <li class="nav-item mx-4 gradient-white">
+                      <li class="nav-item mx-4">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">Contact</a>
                       </li>
                   </ul>
