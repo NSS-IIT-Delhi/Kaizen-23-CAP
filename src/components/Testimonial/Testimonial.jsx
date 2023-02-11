@@ -2,14 +2,15 @@ import React from "react";
 import "./Testimonial.css";
 import TestimonialCard from "./TestimonialCard";
 import photo from "../assets/photo.jpg";
+import {MdNavigateBefore,MdNavigateNext} from 'react-icons/md'
 
-import Carousel from "react-elastic-carousel";
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 900, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 1200, itemsToShow: 3 },
-  { width: 2000, itemsToShow: 4 },
-];
+// import Carousel from "react-elastic-carousel";
+// const breakPoints = [
+//   { width: 1, itemsToShow: 1 },
+//   { width: 900, itemsToShow: 2, itemsToScroll: 2 },
+//   { width: 1200, itemsToShow: 3 },
+//   { width: 2000, itemsToShow: 4 },
+// ];
 
 export default function Testimonial() {
   const testimonialData = [
@@ -52,15 +53,15 @@ export default function Testimonial() {
       <h1 className="head-text text-gradient">The Kaizen Family</h1>
       <hr />
 
-      <div className="testimonial__container">
+      {/* <div className="testimonial__container">
         <Carousel breakPoints={breakPoints}>
           {testimonialData.map((testimonial) => {
             return <TestimonialCard dataItem={testimonial} />;
           })}
         </Carousel>
-      </div>
+      </div> */}
 
-      {/* <div className="testimonial__container">
+      <div className="testimonial__container">
         {testimonialData.map((testimonial) => {
           return <TestimonialCard dataItem={testimonial} />;
         })}
@@ -72,7 +73,7 @@ export default function Testimonial() {
         <a href={`#${testimonialData.length}`}>
           <MdNavigateNext className="toggleCircle" />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }
