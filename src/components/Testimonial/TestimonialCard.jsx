@@ -1,5 +1,5 @@
 import React from "react";
-import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
+import { ImQuotesLeft} from "react-icons/im";
 
 export default function TestimonialCard(props) {
   const { name, college, description, img } = props.dataItem;
@@ -14,14 +14,9 @@ export default function TestimonialCard(props) {
           }}
         />
         {description}
-        {/* <ImQuotesRight
-          style={{
-            color: "#f5b041",
-          }}
-        /> */}
       </p>
       <div className="profile-section">
-        <img className="profileImg" src={img} alt="photo" />
+        <img className="profileImg" src={img} alt="" />
         <p>
           <span className="text-gradient">{name}</span>
           <br /> {college}
