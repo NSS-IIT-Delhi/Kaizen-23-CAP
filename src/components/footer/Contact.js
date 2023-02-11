@@ -4,7 +4,7 @@ import img2 from './saumya.jpeg'
 import './Contact.css'
 const Contact = () => {
   return (
-    <div className="contact-background" style={{ backgroundColor: "#000", overflowX: "hidden", fontFamily: 'Merriweather' }}>
+    <div className="contact-background" style={{ backgroundColor: "#000", overflowX: "hidden",overflowY: "hidden", fontFamily: 'Merriweather' }}>
       <section id="contact" className="section-padding wow fadeIn delay-05s animated" style={{ visibility: "visible", animationName: "fadeIn" }}>
         <div className="row1">
           <h1 className="title-text" style={{ color: " #ffa108", backgroundColor: "black" }} >

@@ -32,7 +32,7 @@ body {
 }
 
 .nav-link {
-  color: black;
+  color: white;
   font-size: 22px;
   font-family: "Raleway", sans-serif;
 }
@@ -110,4 +110,18 @@ body {
   position: absolute;
   left: 5px;
   bottom: -240px;
+}
+
+.gradient-white {
+  /* font-size: 72px; */
+  background: linear-gradient(to right,#c5c5c5, rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-yellow {
+  /* font-size: 72px; */
+  background: linear-gradient(to right,rgb(245, 176, 65), rgba(245, 176, 65, 0.658));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
