@@ -26,7 +26,7 @@ render(){
         <header class="header sticky-top">
           <nav class="navbar navbar-expand-md navbar-fixed-top navbar-default pt-5">
             <div class="container-fluid">
-              <a class="navbar-brand px-4" href=""><img width={50} src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
+              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
               
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
                 <span class="navbar-toggler-icon"></span>
@@ -37,19 +37,19 @@ render(){
                   <ul class="navbar-nav">
 
                       <li class="nav-item mx-5">
-                          <a class="nav-link" href="">Kaizen 2023</a>
+                          <a class="nav-link" href="https://www.kaizeniitd.in/">Kaizen 2023</a>
                       </li>
 
                       <li class="nav-item mx-4">
-                          <a class="nav-link" href="">Home</a>
+                          <a class="nav-link" href="https://www.kaizeniitd.in/">Home</a>
                       </li>
 
                       <li class="nav-item mx-4">
-                          <a class="nav-link" href="">About</a>
+                          <a class="nav-link" href="https://www.kaizeniitd.in/">About</a>
                       </li>
 
                       <li class="nav-item mx-4">
-                          <a class="nav-link" href="">Contact</a>
+                          <a class="nav-link" href="https://www.kaizeniitd.in/">Contact</a>
                       </li>
                   </ul>
 
