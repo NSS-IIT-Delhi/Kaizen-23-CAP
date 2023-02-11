@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Testimonial from "./components/Testimonial/Testimonial";
+import Role from "./components/Role/Role";
 
 function App() {
   return (
-    <div>Kaizen'23</div>
-  )
+    <>
+      <Role />
+      <Testimonial />
+    </>
+  );
 }
 
-export default App
+export default App;
