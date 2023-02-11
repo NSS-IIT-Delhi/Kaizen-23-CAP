@@ -70,9 +70,6 @@ export default function Header(){
           </nav>
         </header>      
 
-
-      
-
         <div class="head container-fluid m-md-5">
           <div class="row mt-2 mb-5 pb-5">
             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 animate__animated animate__fadeInLeft animate__delay-1s"  
