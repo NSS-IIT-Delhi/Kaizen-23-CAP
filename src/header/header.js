@@ -70,9 +70,9 @@ export default function Header(){
           </nav>
         </header>      
 
-        <div class="head container-fluid ml-md-5 mr-md-5" style={{"padding-top":"100px"}}>
-          <div class="row mt-2 mb-5 pb-5">
-            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 animate__animated animate__fadeInLeft animate__delay-1s"  
+        <div class="head container-fluid px-xl-5 px-lg-5 px-md-2 px-sm-1 px-xs-0" style={{"padding-top":"170px"}}>
+          <div class="row">
+            <div class=" col-xl-7 col-lg-8 col-md-10 col-sm-12  pl-5 animate__animated animate__fadeInLeft animate__delay-1s"  
               style={{
                 "--animate-delay": "0.3s",
                 "align-items":"center",
@@ -84,18 +84,18 @@ export default function Header(){
               CAMPUS AMBASSADOR PROGRAM
             </div>
           </div>
-          <div class="row mt-5 pt-5 animate__animated animate__fadeInLeft animate__delay-1s" style={{"--animate-delay": "0.6s"}}>
-            <div class="col-xl-7 col-lg-6 col-md-8 col-sm-12">
+          <div class="row animate__animated animate__fadeInLeft animate__delay-1s" style={{"--animate-delay": "0.6s"}}>
+            <div class="applybox col-xl-7 col-lg-6 col-md-8 col-sm-12">
               <div class="shadow-lg p-4 rounded text-center justify-content-around"
                 style={{
                   "border-radius":"25px",
                   "background":"#F5B041",
                   "align-items":"center",
                   "display":"flex",
-                  "fontSize":22,
                   "font-family": 'Raleway'
                 }}>
-                Be the representative of your campus
+                
+                <div class="mx-3" style={{"fontSize":24,"font-family": 'Raleway'}}>Be the representative of your campus</div>
                 <button class="dbutton p-3 rounded text-center ml-auto"
                   style={{
                     "border-radius":"25px",
