@@ -102,7 +102,7 @@ export default function Header(){
                 <button class="dbutton p-3 rounded text-center ml-auto"
                   style={{
                     "border-radius":"25px",
-                    "background":"black",
+                    "background":"#28282b",
                     "align-items":"center",
                     "display":"flex",
                     "fontSize":22,
@@ -113,14 +113,7 @@ export default function Header(){
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="container-fluid bg-white text-center p-5" style={{"height":"100vh","fontSize":22}}>
-            Lorem Ipsum
-        </div>
-        <div class="container-fluid bg-white text-center p-5" style={{"height":"100vh","fontSize":22}}>
-            Lorem Ipsum
-        </div>        
+        </div>       
       </div>
     </div>
   );
