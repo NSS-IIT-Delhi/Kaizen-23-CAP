@@ -28,7 +28,7 @@ export default function Header(){
     <div>
       <div class="bg animate__fadeIn">
         <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.3s"}}>
-          <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 2:5}`}>
+          <nav  class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 2:5}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
               
@@ -70,10 +70,7 @@ export default function Header(){
           </nav>
         </header>      
 
-
-      
-
-        <div class="head container-fluid m-md-5">
+        <div class="head container-fluid ml-md-5 mr-md-5" style={{"padding-top":"100px"}}>
           <div class="row mt-2 mb-5 pb-5">
             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 animate__animated animate__fadeInLeft animate__delay-1s"  
               style={{
@@ -82,7 +79,7 @@ export default function Header(){
                 "display":"flex",
                 "fontSize":45,
                 "font-family": 'Merriweather',
-                "color":"white"
+                "color":"white",
               }}>
               CAMPUS AMBASSADOR PROGRAM
             </div>
@@ -118,3 +115,5 @@ export default function Header(){
     </div>
   );
 }
+
+
