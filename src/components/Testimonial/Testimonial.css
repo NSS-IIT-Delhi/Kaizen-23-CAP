@@ -1,15 +1,30 @@
 .testimonial__container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow-x: scroll;
+  width: 90%;
   /* outline: 2px solid white; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.testimonial__container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.testimonial__container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .testimonial-card {
   font-family: var(--secondary-font);
-  min-width: 400px;
+  min-width: 350px;
   width: 30%;
-  margin: 2rem;
+  margin: 1rem;
+  /* margin-right: 0; */
   border-radius: 10px;
   /* outline: 2px solid yellow; */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -20,6 +35,12 @@
 
   position: relative;
 }
+/* @media screen and (max-width: 600px) {
+  .testimonial-card {
+    min-width: 90%;
+  }
+} */
+
 .description {
   text-align: justify;
   font-size: 0.8rem;
@@ -52,4 +73,20 @@
   height: 80px;
   object-fit: cover;
   /* outline:1px solid red; */
+}
+
+.slider-toggle {
+  margin-bottom: 2rem;
+}
+
+.toggleCircle {
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* border: 2px solid var(--white-color); */
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  margin: 0.5rem;
+  /* color: var(--primary-color); */
 }
