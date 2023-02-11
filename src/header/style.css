@@ -105,3 +105,9 @@ body {
   -webkit-transform: translate(0px, -2px) scale(1.02);
   transform: translate(0px, -2px) scale(1.02);
 }
+
+.applybox {
+  position: absolute;
+  left: 5px;
+  bottom: -240px;
+}
