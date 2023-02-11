@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb3fe6be.css",
+    "main.js": "/static/js/main.bcd36dd6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/iitd.jpg": "/static/media/iitd.0a9e680c7d0fa0f47c95.jpg",
+    "index.html": "/index.html",
+    "main.fb3fe6be.css.map": "/static/css/main.fb3fe6be.css.map",
+    "main.bcd36dd6.js.map": "/static/js/main.bcd36dd6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb3fe6be.css",
+    "static/js/main.bcd36dd6.js"
+  ]
+}
