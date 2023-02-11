@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState} from "react";
 import "./style.css"
+import 'animate.css';
 export default function Header(){
 
   const [scrolled, setScrolled] = useState(false);
@@ -13,10 +14,10 @@ export default function Header(){
   });
 
   const handleScroll = () => {
-    if (window.pageYOffset > 50) {
+    if (window.pageYOffset > 70) {
       setScrolled(true);
       // setNavbarOpacity(0.8);
-    } else {
+    } else if (window.pageYOffset < 10) {
       setScrolled(false);
       // setNavbarOpacity(1);
     }
@@ -25,8 +26,8 @@ export default function Header(){
 
   return (
     <div>
-      <div class="bg">
-        <header class="header sticky-top">
+      <div class="bg animate__fadeIn">
+        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.3s"}}>
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 2:5}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
@@ -74,8 +75,9 @@ export default function Header(){
 
         <div class="head container-fluid m-md-5">
           <div class="row mt-2 mb-5 pb-5">
-            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12"  
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 animate__animated animate__fadeInLeft animate__delay-1s"  
               style={{
+                "--animate-delay": "0.3s",
                 "align-items":"center",
                 "display":"flex",
                 "fontSize":45,
@@ -85,7 +87,7 @@ export default function Header(){
               CAMPUS AMBASSADOR PROGRAM
             </div>
           </div>
-          <div class="row mt-5 pt-5">
+          <div class="row mt-5 pt-5 animate__animated animate__fadeInLeft animate__delay-1s" style={{"--animate-delay": "0.6s"}}>
             <div class="col-xl-7 col-lg-6 col-md-8 col-sm-12">
               <div class="shadow-lg p-4 rounded text-center justify-content-around"
                 style={{

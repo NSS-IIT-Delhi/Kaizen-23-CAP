@@ -11,12 +11,10 @@
 body { 
   overflow-x: hidden;
   margin: 0;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .head {
   min-height: 100vh;
-
 }
 
 .header{
@@ -27,6 +25,12 @@ body {
 
 .nav-link {
   color: black;
+  font-size:22px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(245,176,65);
   font-size:22px;
   font-family: 'Raleway', sans-serif;
 }
