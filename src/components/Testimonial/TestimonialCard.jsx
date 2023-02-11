@@ -2,12 +2,13 @@ import React from "react";
 import { ImQuotesLeft } from "react-icons/im";
 
 export default function TestimonialCard(props) {
-  const { name, college, description, img } = props.dataItem;
+  const { id,name, college, description, img } = props.dataItem;
   return (
-    <div className="testimonial-card">
+    <div id={id} className="testimonial-card">
       <p className="description">
         <ImQuotesLeft
           style={{
+            verticalAlign:'bottom',
             width: "40px",
             height: "40px",
             color: "#f5b041",
