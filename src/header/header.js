@@ -1,30 +1,33 @@
 
-import React, { Component } from "react";
+import React, { useEffect, useState} from "react";
 import "./style.css"
-import $ from 'jquery';
-export default class Header extends Component{
+export default function Header(){
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 50) {
+      setScrolled(true);
+      // setNavbarOpacity(0.8);
+    } else {
+      setScrolled(false);
+      // setNavbarOpacity(1);
+    }
+  };
 
 
-  jQuerycode = () => {
-    $(window).scroll(function () {
-      if ($(".navbar-default").offset().top > 60) {
-        $(".navbar-fixed-top").addClass("pt-2");
-        $(".navbar-fixed-top").removeClass("pt-5");
-      } else if ($(".navbar-default").offset().top < 10) {
-        $(".navbar-fixed-top").addClass("pt-5");
-        $(".navbar-fixed-top").removeClass("pt-2");
-      }
-    });
-  }
-  componentDidMount(){
-    this.jQuerycode()
-  }
-render(){
   return (
     <div>
       <div class="bg">
         <header class="header sticky-top">
-          <nav class="navbar navbar-expand-md navbar-fixed-top navbar-default pt-5">
+          <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 2:5}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
               
@@ -119,5 +122,4 @@ render(){
       </div>
     </div>
   );
-    }
 }
