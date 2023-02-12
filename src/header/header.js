@@ -4,6 +4,7 @@ import "./style.css"
 import 'animate.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "./logo.png"
+import { useNavigate } from "react-router-dom";
 
 export default function Header({id}){
 
@@ -26,6 +27,11 @@ export default function Header({id}){
     }
   };
 
+  let navigate = useNavigate(); 
+  const form = () =>{ 
+    let path = `/form`; 
+    navigate(path);
+  }
 
   return (
     <div id={id}>
@@ -114,7 +120,7 @@ export default function Header({id}){
                 }}>
                 
                 <div class="mx-3 gradient-white" style={{"fontSize":28,"font-family": 'Raleway'}}>Be the representative of your campus</div>
-                <button class="dbutton p-3 rounded text-center ml-auto "
+                <button class="dbutton p-3 rounded text-center ml-auto " onClick={form}
                   style={{
                   "-webkit-filter": "brightness(100%) contrast(100%) blur(0px) grayscale(0%)",
                     "border-radius":"25px",
