@@ -2,9 +2,9 @@ import React from 'react'
 import img1 from './harsh.jpeg'
 import img2 from './saumya.jpeg'
 import './Contact.css'
-const Contact = () => {
+const Contact = ({id}) => {
   return (
-    <div className="contact-background" style={{ backgroundColor: "#000", overflowX: "hidden",overflowY: "hidden", fontFamily: 'Merriweather' }}>
+    <div className="contact-background" style={{ backgroundColor: "#000", overflowX: "hidden",overflowY: "hidden", fontFamily: 'Merriweather' }} id={id}>
       <section id="contact" className="section-padding wow fadeIn delay-05s animated" style={{ visibility: "visible", animationName: "fadeIn" }}>
         <div className="row1">
           <h1 className="title-text text-gradient" style={{ color: " #ffa108"}} >
