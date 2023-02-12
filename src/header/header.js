@@ -30,7 +30,7 @@ export default function Header(){
         <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.3s"}}>
           <nav  class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
             <div class="container-fluid">
-              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
+              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
               
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
                 <span class="navbar-toggler-icon"></span>
@@ -40,19 +40,19 @@ export default function Header(){
               <div class="collapse navbar-collapse float-right" id="menu">
                   <ul class="navbar-nav">
 
-                      <li class="nav-item mx-5">
+                      <li class="nav-item mx-5 hover-underline-animation">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">Kaizen 2023</a>
                       </li>
 
-                      <li class="nav-item mx-4">
+                      <li class="nav-item mx-4 hover-underline-animation">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">Home</a>
                       </li>
 
-                      <li class="nav-item mx-4">
+                      <li class="nav-item mx-4 hover-underline-animation">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">About</a>
                       </li>
 
-                      <li class="nav-item mx-4">
+                      <li class="nav-item mx-4 hover-underline-animation">
                           <a class="nav-link" href="https://www.kaizeniitd.in/">Contact</a>
                       </li>
                   </ul>
@@ -70,7 +70,7 @@ export default function Header(){
           </nav>
         </header>      
 
-        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-xs-3" style={{"padding-top":"170px"}}>
+        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-4" style={{"padding-top":"170px"}}>
           <div class="row">
             <div class=" col-xl-7 col-lg-8 col-md-10 col-sm-12  pl-5 animate__animated animate__fadeInLeft animate__delay-1s gradient-yellow"  
               style={{
