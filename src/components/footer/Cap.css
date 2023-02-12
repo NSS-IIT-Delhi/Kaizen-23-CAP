@@ -6,20 +6,18 @@ body {
 
 section.section-show {
     opacity: 1;
-    padding-bottom: 45px;
 }
 
 section {
     overflow: hidden;
     width: 100%;
-    /* top: 140px;
-    bottom: 100%; */
     transition: ease-in-out 0.4s;
     z-index: 2;
 }
 
 section .container {
-    padding: 40px;
+    padding: 1rem;
+    overflow-x: hidden;
 }
 
 .section-title h2 {
@@ -31,7 +29,8 @@ section .container {
     letter-spacing: 2px;
     text-transform: uppercase;
     text-shadow: 0px 2px 2px #ffbe55;
-    color: black;
+    color: white;
+    padding-left: 34px;
 }
 .section-title h2::after {
     content: "";
@@ -44,26 +43,50 @@ section .container {
 
 .section-title p {
     margin: 0;
-    margin-bottom: 70px;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 0px 4px 4px #ffbe55;
-    color: black;
 }
-
+.text-gradient {
+    background: linear-gradient(to right,
+        var(--primary-color),
+        var(--white-color));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+.hrx hr {
+    width: 20%;
+    height: 0.3rem;
+    border-radius: 50px;
+    border: none;
+    /* background-color: var(--primary-color); */
+    background: linear-gradient(to right,
+        var(--primary-color),
+        var(--white-color));
+    /* text-align: center; */
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .row2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: auto;
+    padding: 1rem ;
+    overflow-x: hidden;
+  }
 .services .icon-box {
     text-align: center;
     background: rgba(0, 0, 0, 0.9);
     padding: 60px 05px;
     transition: all ease-in-out 0.3s;
     border-radius: 3px;
+    width: 98%;
+    overflow-x: hidden;
 }
 .services .icon-box:hover {
     background: rgba(0, 0, 0);
     border-color: #ffbe55;
     transform: translateY(-2.5px);
-    box-shadow: 0 15px 15px 0 #fae5c3;
+    box-shadow: 0px 0px 10px #fae5c3;
 }
 .services .icon-box .icon {
     margin: 0 auto;
@@ -108,4 +131,3 @@ section .container {
     font-size: 14px;
     margin-bottom: 0;
 }
-
