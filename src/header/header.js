@@ -36,7 +36,7 @@ export default function Header({id}){
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
               
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
                 <span class="navbar-toggler-icon"></span>
               </button>
 
