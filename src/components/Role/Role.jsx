@@ -1,7 +1,7 @@
 import React from "react";
 import "./Role.css";
 import RoleCard from "./RoleCard";
-import role1 from "../assets/role1.png";
+import organize from "../assets/organize.png";
 import advertize from "../assets/advertize.png";
 import gear from "../assets/gear.png";
 import social from "../assets/social.png";
@@ -12,7 +12,7 @@ export default function Role() {
       title: "Organize",
       content:
         "Organize events, workshops and sessions regarding Kaizen and what it has to offer with assistance from mentors.",
-      img: role1,
+      img: organize,
     },
     {
       title: "Publicity",
