@@ -14,16 +14,14 @@ export default function Header(){
     };
   });
 
-  useEffect(() => {
-    const onPageLoad = () => {
-      setPlayAnimation(true);
+  const onPageLoad = () => {
+    setPlayAnimation(true);
+  };
 
-    };
-    if (document.readyState === 'complete') {
-      onPageLoad();
-    } else {
-      window.addEventListener('load', onPageLoad);
-      return () => window.removeEventListener('load', onPageLoad);
+  useEffect(() => {
+    window.addEventListener("load", onPageLoad);
+    return () => {
+    window.removeEventListener('load', onPageLoad);      
     }
   }, []);
   
@@ -86,11 +84,11 @@ export default function Header(){
 
         <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-3" style={{"padding-top":"170px"}}>
           <div class="row">
-            <div class={` col-xl-7 col-lg-8 col-md-10 col-sm-11 col-9 pl-5 gradient-yellow  ${playAnimation ? "animL" : ""}`}
+            <div class={` col-xl-7 col-lg-8 col-md-10 col-sm-11 col-12 pl-5 gradient-yellow  ${playAnimation ? "animL" : ""}`}
               style={{
                 // "visibility":"hidden",
                 "align-items":"center",
-                // "display":"flex",
+                "display":"flex",
                 "fontSize":45,
                 "font-family": 'Merriweather',
                 "color":"white",
