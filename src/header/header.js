@@ -2,7 +2,10 @@
 import React, { useEffect, useState} from "react";
 import "./style.css"
 import 'animate.css';
-export default function Header(){
+import { Link, animateScroll as scroll } from "react-scroll";
+import logo from "./logo.png"
+
+export default function Header({id}){
 
   const [scrolled, setScrolled] = useState(false);
 
@@ -25,14 +28,15 @@ export default function Header(){
 
 
   return (
-    <div>
+    <div id={id}>
+
       <div class="bg animate__fadeIn">
         <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.3s"}}>
           <nav  class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
             <div class="container-fluid">
-              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
+              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
               
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="" >
                 <span class="navbar-toggler-icon"></span>
               </button>
 
@@ -40,21 +44,27 @@ export default function Header(){
               <div class="collapse navbar-collapse float-right" id="menu">
                   <ul class="navbar-nav">
 
-                      <li class="nav-item mx-5 hover-underline-animation">
-                          <a class="nav-link" href="https://www.kaizeniitd.in/">Kaizen 2023</a>
+                  <li class="nav-item mx-4 hover-underline-animation">
+                        <a class="nav-link">
+                          <Link activeClass="nav-link-active" to="home" spy={true} offset={-70} duration={500}>
+                            Home
+                          </Link></a>
                       </li>
 
                       <li class="nav-item mx-4 hover-underline-animation">
-                          <a class="nav-link" href="https://www.kaizeniitd.in/">Home</a>
+                        <a class="nav-link">
+                          <Link activeClass="nav-link-active" to="about" spy={true} offset={-70} duration={500}>
+                            About
+                          </Link></a>
                       </li>
 
                       <li class="nav-item mx-4 hover-underline-animation">
-                          <a class="nav-link" href="https://www.kaizeniitd.in/">About</a>
+                        <a class="nav-link">
+                          <Link activeClass="nav-link-active" to="contacts" spy={true} offset={-70} duration={500}>
+                            Contact
+                          </Link></a>
                       </li>
 
-                      <li class="nav-item mx-4 hover-underline-animation">
-                          <a class="nav-link" href="https://www.kaizeniitd.in/">Contact</a>
-                      </li>
                   </ul>
 
 
@@ -119,7 +129,9 @@ export default function Header(){
                   }}>
                   Apply Now
                 </button>
+              
               </div>
+ 
             </div>
           </div>
         </div>       

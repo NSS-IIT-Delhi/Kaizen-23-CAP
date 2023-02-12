@@ -13,7 +13,7 @@ import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 //   { width: 2000, itemsToShow: 4 },
 // ];
 
-export default function Testimonial() {
+export default function Testimonial({id}) {
   const testimonialData = [
     {
       id: 1,
@@ -50,7 +50,7 @@ export default function Testimonial() {
   ];
 
   return (
-    <div className="app__flex app__container">
+    <div className="app__flex app__container" id={id}>
       <h1 className="head-text text-gradient">The Kaizen Family</h1>
       <hr />
 

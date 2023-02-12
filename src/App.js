@@ -17,15 +17,18 @@ import Footer from '../src/components/footer/Footer';
 import WhyCap from '../src/components/footer/WhyCAP'
 import Contact from '../src/components/footer/Contact'
 
+
 function App() {
   return (
     <>
-      <Header />
-      <WhyCap />
-      <Role />
-      <Testimonial />
-      <Contact />
-      <Footer />
+
+        <Header id="home"/>
+        <WhyCap />
+        <Role />
+        <Testimonial id="about"/>
+        <Contact id="contacts" />
+        <Footer />
+
     </>
   );
 }
