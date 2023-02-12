@@ -5,6 +5,7 @@ import 'animate.css';
 export default function Header(){
 
   const [scrolled, setScrolled] = useState(false);
+  const [playAnimation, setPlayAnimation] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -13,6 +14,19 @@ export default function Header(){
     };
   });
 
+  useEffect(() => {
+    const onPageLoad = () => {
+      setPlayAnimation(true);
+
+    };
+    if (document.readyState === 'complete') {
+      onPageLoad();
+    } else {
+      window.addEventListener('load', onPageLoad);
+      return () => window.removeEventListener('load', onPageLoad);
+    }
+  }, []);
+  
   const handleScroll = () => {
     if (window.pageYOffset > 70) {
       setScrolled(true);
@@ -26,8 +40,8 @@ export default function Header(){
 
   return (
     <div>
-      <div class="bg animate__fadeIn">
-        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.3s"}}>
+      <div class="bg">
+        <header class={`header sticky-top ${playAnimation ? "animU" : ""}`}>
           <nav  class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} alt="Kaizen" src="https://www.kaizeniitd.in/images/kaizen.png"/></a>
@@ -70,13 +84,13 @@ export default function Header(){
           </nav>
         </header>      
 
-        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-xs-3" style={{"padding-top":"170px"}}>
+        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-3" style={{"padding-top":"170px"}}>
           <div class="row">
-            <div class=" col-xl-7 col-lg-8 col-md-10 col-sm-12  pl-5 animate__animated animate__fadeInLeft animate__delay-1s gradient-yellow"  
+            <div class={` col-xl-7 col-lg-8 col-md-10 col-sm-11 col-9 pl-5 gradient-yellow  ${playAnimation ? "animL" : ""}`}
               style={{
-                "--animate-delay": "0.3s",
+                // "visibility":"hidden",
                 "align-items":"center",
-                "display":"flex",
+                // "display":"flex",
                 "fontSize":45,
                 "font-family": 'Merriweather',
                 "color":"white",
@@ -84,8 +98,8 @@ export default function Header(){
               <strong>CAMPUS AMBASSADOR PROGRAM</strong>
             </div>
           </div>
-          <div class="row animate__animated animate__fadeInLeft animate__delay-1s" style={{"--animate-delay": "0.6s"}}>
-            <div class="applybox col-xl-7 col-lg-6 col-md-8 col-sm-12">
+          <div class="row">
+            <div class={`applybox col-xl-7 col-lg-6 col-md-8 col-sm-12 ${playAnimation ? "animL2":""}`}>
               <div class="shadow-lg p-3 rounded text-center justify-content-around"
                 style={{
                   "border-radius":"25px",

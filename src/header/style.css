@@ -13,22 +13,23 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  background-color: #28282b;  
+  background-color: #28282b;
+    
 }
 
 .head {
   min-height: 100vh;
+  visibility: hidden;
 }
 
 .header {
   background-color: transparent;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-
+  display: none;
   width:100%;
   position:fixed;
-  top:0px
-
+  top:0px;
 }
 
 .nav-link {
@@ -58,25 +59,11 @@ body {
   min-height: 100vh;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  /* background-color: #141414; */
-}
-
-.main {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf9TMCPpl8snadnXtxM8K-bJ6MRJr701J8sbC4p88SRzRUEDPxFA2gX0ctuJkuIfrrfWI&usqp=CAU);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #navbar {
   overflow: hidden;
   background-color: #f1f1f1;
-  /* padding: 90px 10px; */
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -113,13 +100,14 @@ body {
 .applybox {
   position: absolute;
   left: 5px;
-  bottom: -240px;
+  bottom: 50px;
 }
 
 .gradient-white {
   /* font-size: 72px; */
   background: linear-gradient(to right,#c5c5c5, rgb(255, 255, 255));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -127,5 +115,24 @@ body {
   /* font-size: 72px; */
   background: linear-gradient(to right,rgb(245, 176, 65), rgba(245, 176, 65, 0.658));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.animU {
+  display: block;
+  animation: fadeInDown;
+  animation-duration: 1.5s;
+}
+
+.animL {
+  visibility: visible;
+  animation: fadeInLeft;
+  animation-duration: 1.5s;
+}
+
+.animL2 {
+  visibility: visible;
+  animation: fadeInLeft;
+  animation-duration: 1.7s;
 }
