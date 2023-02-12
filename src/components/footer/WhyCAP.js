@@ -6,9 +6,10 @@ const WhyCAP = () => {
     <div className="container">
       <div className="section-title whysp mt-5">
           <h1 className='text-center text-gradient'>What’s in it for you?</h1>
-          <div className="hrx">
+          {/* <div className="hrx">
           <hr/>
-          </div>
+          </div> */}
+          <hr/>
       </div>
     <div className="container">
       <div className="row2 row">

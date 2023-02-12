@@ -20,6 +20,7 @@
 }
 
 .testimonial-card {
+  /* background-color: #040404; */
   font-family: var(--secondary-font);
   min-width: 350px;
   width: 30%;
@@ -46,7 +47,9 @@
 .description {
   text-align: justify;
   font-size: 0.8rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: #040404;
+  font-family:var(--secondary-font);
   padding: 1rem;
   border-radius: 10px;
 }
