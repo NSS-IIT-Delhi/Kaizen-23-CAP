@@ -2,8 +2,8 @@ import React from "react";
 import "./Testimonial.css";
 import TestimonialCard from "./TestimonialCard";
 import photo from "../assets/photo.jpg";
-import images from '../assets/images'
-import {MdNavigateBefore,MdNavigateNext} from 'react-icons/md'
+import images from "../assets/images";
+import { MdNavigateBefore, MdNavigateNext } from "react-icons/md";
 
 // import Carousel from "react-elastic-carousel";
 // const breakPoints = [
