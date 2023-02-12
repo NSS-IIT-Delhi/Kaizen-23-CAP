@@ -4,11 +4,7 @@ import img2 from './saumya.jpeg'
 import './Contact.css'
 const Contact = () => {
   return (
-<<<<<<< HEAD
     <div className="contact-background" style={{ backgroundColor: "#000", overflowX: "hidden",overflowY: "hidden", fontFamily: 'Merriweather' }}>
-=======
-    <div className="contact-background" style={{ overflowX: "hidden", fontFamily: 'Merriweather' }}>
->>>>>>> 6f6f132 (Adding changes in CAP)
       <section id="contact" className="section-padding wow fadeIn delay-05s animated" style={{ visibility: "visible", animationName: "fadeIn" }}>
         <div className="row1">
           <h1 className="title-text text-gradient" style={{ color: " #ffa108"}} >

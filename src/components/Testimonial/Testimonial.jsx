@@ -2,6 +2,7 @@ import React from "react";
 import "./Testimonial.css";
 import TestimonialCard from "./TestimonialCard";
 import photo from "../assets/photo.jpg";
+import images from '../assets/images'
 import {MdNavigateBefore,MdNavigateNext} from 'react-icons/md'
 
 // import Carousel from "react-elastic-carousel";
@@ -20,7 +21,7 @@ export default function Testimonial() {
       college: "Isabella Thoburn college, Lucknow",
       description:
         " Well, I like to thank the event organizing team of the NSS IITD. I had a great experience as a campus ambassador at NSS IITD. As a campus ambassador, I got a platform to become a college representative for different activities and competitions. I enhanced my public speaking, social media networking, content writing, and promotion. It helped me meet new people and expand my network to the students' different streams. I got to know about other things. I gain so much confidence in talking to a range of people. ",
-      img: photo,
+      img: images.photo1,
     },
     {
       id: 2,
@@ -28,7 +29,7 @@ export default function Testimonial() {
       college: "PES University (EC CAMPUS), Bangalore",
       description:
         " Noob to top performing intern. When I started the internship as a campus ambassador, I was really afraid. But the Kaizen members' meetings and step by, I was one of the top performing campus ambassadors. I thank IIT DELHI, especially Kaizen, for the opportunity and believing in my potential. ",
-      img: photo,
+      img: images.photo2,
     },
     {
       id: 3,
