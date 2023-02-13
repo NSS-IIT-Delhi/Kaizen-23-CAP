@@ -12,7 +12,7 @@ const WhyCAP = () => {
           <hr/>
       </div>
     <div className="container">
-      <div className="row2 ">
+      <div className="row2 row">
       <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10  d-flex mt-4 mt-md-0">
       <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10 d-flex mt-4">
           <div className="icon-box   cap-cards">
