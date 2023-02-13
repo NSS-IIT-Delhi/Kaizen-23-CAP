@@ -36,7 +36,7 @@ export default function Header({id}){
 
       <div class="bg">
         <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s",  "background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
-          <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
+          <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
               
@@ -85,54 +85,32 @@ export default function Header({id}){
         </header>      
 
         <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-3">
-          <div class="row">
-            <div class="col cap col-xl-7 col-lg-8 col-md-10 col-sm-12 gradient-yellow"  
-              style={{
-                "align-items":"center",
-                "display":"flex",
-                "fontSize":45,
-                "font-family": 'Merriweather',
-                "color":"white",
-              }}>
-              <strong>CAMPUS AMBASSADOR PROGRAM</strong>
+          <div class="cap">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 justify-content-center"  
+                style={{
+                  "text-align":"center",
+                  // "align-items":"center",
+                  // "display":"flex",
+                  "fontSize":45,
+                  "font-family": 'Merriweather',
+                  "color":"aquamarine",
+                }}>
+                CAMPUS AMBASSADOR PROGRAM
+              </div>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col col-xl-7 col-lg-6 col-md-8 col-sm-12 col-12">
-              <div class="card applybox mx-xl-2 mx-lg-2 mx-md-2 mx-sm-2 mx-1" 
-                            style={{
-                              "border-radius":"15px",
-                              "border":"transparent",
-                              "background":"rgba(245, 176, 65, .8)",
-                              "opacity":"0.9",
-                              // "-webkit-filter": "brightness(100%) contrast(90%) blur(0.1px) grayscale(1%)",
-                              // "filter": "brightness(90%) contrast(90%) blur(2px) grayscale(10%)",
-                              // "background-image": "linear-gradient(#F5B041, #F5B800)", 
-                              // "background-opacity":"80%",
-                              "font-family": 'Raleway',
-                              // "background": "rgba(0,0,0,0.8)",
-                              "backdrop-filter": "blur(10px)",                  
-                              // "backgroundImage":""
-                            }}>
-                <div class="card-body align-items-center" style={{"display":"flex",}}>
-                  <h5 class="card-title gradient-white px-xl-4 px-lg-4 px-md-3 px-sm-2 px-1">Be the representative of your campus</h5>
-                  <a href="#" class="btn dbutton btn-primary ms-auto" onClick={form} style={{
-                    "-webkit-filter": "brightness(100%) contrast(100%) blur(0px) grayscale(0%)",
-                      "border-radius":"15px",
-                      "border":"transparent",
-                    // "background":"rgba(0, 0, 0, .6)",
-                      "background":"#28282b",
-                      "align-items":"center",
-                      "display":"flex",
-                      "fontSize":22,
-                      "color":"#F5B041"
-                    }}>APPLY NOW</a>
-                </div>
+            
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 justify-content-center"  
+                style={{
+                  "text-align":"center",
+                }}>
+                <button class="applybtn">Apply now</button>
               </div>
             </div>
 
           </div>
+
         </div>       
       </div>
     </div>
