@@ -1,10 +1,10 @@
 
 import React, { useEffect, useState} from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 import "./style.css"
 import 'animate.css';
-import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "./logo.png"
-import { useNavigate } from "react-router-dom";
 
 export default function Header({id}){
 
@@ -20,10 +20,8 @@ export default function Header({id}){
   const handleScroll = () => {
     if (window.pageYOffset > 70) {
       setScrolled(true);
-      // setNavbarOpacity(0.8);
     } else if (window.pageYOffset < 10) {
       setScrolled(false);
-      // setNavbarOpacity(1);
     }
   };
 
@@ -36,9 +34,9 @@ export default function Header({id}){
   return (
     <div id={id}>
 
-      <div class="bg animate__fadeIn">
-        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.3s"}}>
-          <nav  class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
+      <div class="bg">
+        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s",  "background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
+          <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
               
@@ -48,7 +46,7 @@ export default function Header({id}){
 
 
               <div class="collapse navbar-collapse float-right" id="menu">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav ms-auto">
 
                   <li class="nav-item mx-4 hover-underline-animation">
                         <a class="nav-link">
@@ -86,11 +84,10 @@ export default function Header({id}){
           </nav>
         </header>      
 
-        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-4" style={{"padding-top":"170px"}}>
+        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-3">
           <div class="row">
-            <div class=" col-xl-7 col-lg-8 col-md-10 col-sm-12  pl-5 animate__animated animate__fadeInLeft animate__delay-1s gradient-yellow"  
+            <div class="col cap col-xl-7 col-lg-8 col-md-10 col-sm-12 gradient-yellow"  
               style={{
-                "--animate-delay": "0.3s",
                 "align-items":"center",
                 "display":"flex",
                 "fontSize":45,
@@ -100,45 +97,41 @@ export default function Header({id}){
               <strong>CAMPUS AMBASSADOR PROGRAM</strong>
             </div>
           </div>
-          <div class="row animate__animated animate__fadeInLeft animate__delay-1s" style={{"--animate-delay": "0.6s"}}>
-            <div class="applybox col-xl-7 col-lg-6 col-md-8 col-sm-12">
-              <div class="shadow-lg p-3 rounded text-center justify-content-around"
-                style={{
-                  "border-radius":"25px",
-                  "border":"transparent",
-                  "background":"rgba(245, 176, 65, .8)",
-                  // "-webkit-filter": "brightness(100%) contrast(90%) blur(0.1px) grayscale(1%)",
-                  // "filter": "brightness(90%) contrast(90%) blur(2px) grayscale(10%)",
-                  // "background-image": "linear-gradient(#F5B041, #F5B800)", 
-                  // "background-opacity":"80%",
-                  "align-items":"center",
-                  "display":"flex",
-                  "font-family": 'Raleway',
-                  // "background": "rgba(0,0,0,0.8)",
-                  "backdrop-filter": "blur(10px)",                  
-                  // "backgroundImage":""
-                }}>
-                
-                <div class="mx-3 gradient-white" style={{"fontSize":28,"font-family": 'Raleway'}}>Be the representative of your campus</div>
-                <button class="dbutton p-3 rounded text-center ml-auto " onClick={form}
-                  style={{
-                  "-webkit-filter": "brightness(100%) contrast(100%) blur(0px) grayscale(0%)",
-                    "border-radius":"25px",
-                    "border":"transparent",
-                  // "background":"rgba(0, 0, 0, .6)",
 
-                    "background":"#28282b",
-                    "align-items":"center",
-                    "display":"flex",
-                    "fontSize":22,
-                    "color":"#F5B041"
-                  }}>
-                  Apply Now
-                </button>
-              
+          <div class="row">
+            <div class="col col-xl-7 col-lg-6 col-md-8 col-sm-12 col-12">
+              <div class="card applybox mx-xl-2 mx-lg-2 mx-md-2 mx-sm-2 mx-1" 
+                            style={{
+                              "border-radius":"15px",
+                              "border":"transparent",
+                              "background":"rgba(245, 176, 65, .8)",
+                              "opacity":"0.9",
+                              // "-webkit-filter": "brightness(100%) contrast(90%) blur(0.1px) grayscale(1%)",
+                              // "filter": "brightness(90%) contrast(90%) blur(2px) grayscale(10%)",
+                              // "background-image": "linear-gradient(#F5B041, #F5B800)", 
+                              // "background-opacity":"80%",
+                              "font-family": 'Raleway',
+                              // "background": "rgba(0,0,0,0.8)",
+                              "backdrop-filter": "blur(10px)",                  
+                              // "backgroundImage":""
+                            }}>
+                <div class="card-body align-items-center" style={{"display":"flex",}}>
+                  <h5 class="card-title gradient-white px-xl-4 px-lg-4 px-md-3 px-sm-2 px-1">Be the representative of your campus</h5>
+                  <a href="#" class="btn dbutton btn-primary ms-auto" onClick={form} style={{
+                    "-webkit-filter": "brightness(100%) contrast(100%) blur(0px) grayscale(0%)",
+                      "border-radius":"15px",
+                      "border":"transparent",
+                    // "background":"rgba(0, 0, 0, .6)",
+                      "background":"#28282b",
+                      "align-items":"center",
+                      "display":"flex",
+                      "fontSize":22,
+                      "color":"#F5B041"
+                    }}>APPLY NOW</a>
+                </div>
               </div>
- 
             </div>
+
           </div>
         </div>       
       </div>
