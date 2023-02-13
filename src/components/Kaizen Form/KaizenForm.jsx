@@ -166,9 +166,12 @@ export default class KaizenForm extends React.Component {
                                         id="Name"
                                         name="Name"
                                         data-aos="fade-up"
-                                        required=""
+                                        required
                                     />
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset>
                                     <label htmlFor="Mobile" data-aos="fade-up">
                                         Contact Number(WhatsApp Number):
@@ -831,10 +834,12 @@ export default class KaizenForm extends React.Component {
                                             name="Mobile"
                                             data-aos="fade-up"
                                             pattern="[\s]{0,}[+0-9]{10,}[\s]{0,}"
-                                            required=""
+                                            required
                                         />
                                     </span>
                                 </fieldset>
+                                <br />
+                                <br />
                                 <fieldset className="pure-group">
                                     <label htmlFor="email" data-aos="fade-up">
                                         E-mail ID:
@@ -846,9 +851,12 @@ export default class KaizenForm extends React.Component {
                                         name="Email"
                                         pattern="[\s]{0,}[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}[\s]{0,}$"
                                         data-aos="fade-up"
-                                        required=""
+                                        required
                                     />
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="State" data-aos="fade-up">
                                         College State:
@@ -860,16 +868,22 @@ export default class KaizenForm extends React.Component {
                                         id="sts"
                                         name="stt"
                                         className="form-control"
-                                        required=""
+                                        required
                                     />
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="City" data-aos="fade-up">
                                         College City:
                                     </label>
                                     <br />
-                                    <select id="state" className="form-control" required="" name="City" />
+                                    <select id="state" className="form-control" required name="City" />
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="College" data-aos="fade-up">
                                         College Name:
@@ -4281,6 +4295,9 @@ export default class KaizenForm extends React.Component {
                                         </option>
                                     </datalist>
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="Stream" data-aos="fade-up">
                                         Stream:
@@ -4307,6 +4324,9 @@ export default class KaizenForm extends React.Component {
                                         <option>Other</option>
                                     </select>
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="Year" data-aos="fade-up">
                                         Year of study:
@@ -4325,6 +4345,9 @@ export default class KaizenForm extends React.Component {
                                         <option> Other</option>
                                     </select>
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="Motivation" data-aos="fade-up">
                                         What is your motivation to join the program?
@@ -4334,7 +4357,7 @@ export default class KaizenForm extends React.Component {
                                         id="Motivation"
                                         name="Motivation"
                                         data-aos="fade-up"
-                                        required=""
+                                        required
                                         defaultValue={""}
                                     />
                                 </fieldset>
@@ -4352,6 +4375,9 @@ export default class KaizenForm extends React.Component {
                                         data-aos="fade-up"
                                     />
                                 </fieldset>
+                                <br />
+                                <br />
+                                
                                 <fieldset className="pure-group">
                                     <label htmlFor="Linkedin" data-aos="fade-up">
                                         Linkedin Profile Link:
