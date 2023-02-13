@@ -2,10 +2,13 @@ import React from "react";
 import "./Role.css";
 import RoleCard from "./RoleCard";
 import organize from "../assets/organize.png";
-import event from '../assets/event.png'
 import advertize from "../assets/advertize.png";
 import gear from "../assets/gear.png";
 import social from "../assets/social.png";
+import event from '../assets/event.png'
+import publicity from '../assets/publicity.png'
+import socialmedia from '../assets/socialmedia.png'
+import setting from '../assets/setting.png'
 
 export default function Role({id}) {
   const roleData = [
@@ -20,19 +23,22 @@ export default function Role({id}) {
       title: "Publicity",
       content:
         "Managing the public image of Ecell and spreading information about E cell through various activities like putting up posters on the notice board.",
-      img: advertize,
+      // img: advertize,
+      img: publicity,
     },
     {
       title: "Social Media",
       content:
         "Sharing e-posters on social media platforms like facebook, instagram and WhatsApp. Forwarding mails to the college mailing list. Be the face of IITD in your college.",
-      img: social,
+      // img: social,
+      img: socialmedia,
     },
     {
       title: "Conduct",
       content:
         "Help in management of elimination rounds in your college and city to select participants for the main event.",
-      img: gear,
+      // img: gear,
+      img: setting,
     },
   ];
 
