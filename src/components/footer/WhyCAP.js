@@ -1,7 +1,8 @@
 import React from 'react'
 import './Cap.css'
-const WhyCAP = () => {
+const WhyCAP = ({id}) => {
   return (
+    <div id={id}>
 <section id="services" className="services section-show __web-inspector-hide-shortcut__">
     <div className="container">
       <div className="section-title whysp mt-5">
@@ -65,6 +66,7 @@ const WhyCAP = () => {
       </div>
       </div>
   </section>
+  </div>
   )
 }
 
