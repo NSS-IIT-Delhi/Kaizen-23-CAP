@@ -35,7 +35,7 @@ export default function Header({id}){
     <div id={id}>
 
       <div class="bg">
-        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s"}}>
+        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s",  "background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:5}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
@@ -46,7 +46,7 @@ export default function Header({id}){
 
 
               <div class="collapse navbar-collapse float-right" id="menu">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav ms-auto">
 
                   <li class="nav-item mx-4 hover-underline-animation">
                         <a class="nav-link">
