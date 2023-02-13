@@ -19,6 +19,24 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  .nav-link-active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: aquamarine;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link-active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
 }
 
 @media only screen and (min-height: 500px) {
@@ -97,6 +115,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+
 }
 
 .navbar {
@@ -132,17 +151,6 @@ body {
 .navbar-toggler {
   box-shadow: none;
   border: none;
-}
-.dbutton {
-  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-  -webkit-transition: all ease-in-out 300ms;
-  transition: all ease-in-out 300ms;
-}
-.dbutton:hover {
-  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translate(0px, -1px) scale(1.04);
-  transform: translate(0px, -1px) scale(1.04);
 }
 
 .applybox {

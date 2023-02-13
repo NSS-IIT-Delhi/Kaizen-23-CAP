@@ -105,7 +105,7 @@ export default function Header({id}){
                 style={{
                   "text-align":"center",
                 }}>
-                <button class="applybtn">Apply now</button>
+                <button class="applybtn" onClick={form}>Apply now</button>
               </div>
             </div>
 
