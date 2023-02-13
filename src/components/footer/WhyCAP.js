@@ -35,13 +35,19 @@ const WhyCAP = () => {
             <p>Chance to organize events and workshops in collaboration with NSS in your college.</p>
           </div>
         </div>
-
-      <div className="row2 row">
         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex mt-4">
           <div className="icon-box   cap-cards">
             <div className="icon"><i class="fa-solid fa-shield"></i></div>
             <h4>IIT Delhi events</h4>
             <p>Top performing CAs will get a chance to visit IIT Delhi Campus and attend Kaizen'23.
+            </p>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex mt-4">
+          <div className="icon-box   cap-cards">
+            <div className="icon"><i class="fa-solid fa-shield"></i></div>
+            <h4>Prizes</h4>
+            <p>Prizes worth Rs. 1 lakhs consisting of merchandise and coupons of top brands.
             </p>
           </div>
         </div>
@@ -54,10 +60,8 @@ const WhyCAP = () => {
             </p>
           </div>
         </div>
-
       </div>
       </div>
-    </div>
     </div>
   </section>
   )
