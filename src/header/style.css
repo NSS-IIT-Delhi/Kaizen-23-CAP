@@ -69,8 +69,6 @@ body {
   width:100%;
   position:fixed;
   top:0px;
-  animation: fadeInDown;
-  animation-duration: 1.5s
 }
 
 .nav-link {
