@@ -97,7 +97,7 @@ section .container {
     background: rgba(0, 0, 0);
     border-color: #b6ffc5;
     transform: translateY(-2.5px);
-    box-shadow: 0px 0px 10px #fae5c3;
+    box-shadow: 0px 0px 10px #b6ffc5;
 }
 .services .icon-box .icon {
     margin: 0 auto;
