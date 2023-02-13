@@ -36,6 +36,7 @@ fieldset {
     display: inline-grid;
     width: 60vw;
     height: 5rem;
+    padding: 20px;
 } 
 
 @media only screen and (max-width: 768px) {
@@ -55,7 +56,7 @@ fieldset {
 
 
 #cc{
-    width: 60px;
+    width: 80px;
 }
 
 textarea{
