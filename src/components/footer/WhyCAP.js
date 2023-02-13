@@ -15,14 +15,14 @@ const WhyCAP = () => {
       <div className="row2 row">
       <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10  d-flex mt-4 mt-md-0">
           <div className="icon-box   cap-cards">
-            <div className="icon"><i class="fa-solid fa-receipt"></i></div>
+            <div className="icon"><i class="fa-solid fa-file-shield"></i></div>
             <h4>Get Certificate & LOR</h4>
             <p>Certificate of Appreciation, LOR from NSS, IIT Delhi bearing its signature.</p>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10  d-flex mt-4 mt-md-0">
           <div className="icon-box   cap-cards">
-            <div className="icon"><i class="fa-solid fa-star"></i></div>
+            <div className="icon"><i class="fa-brands fa-nfc-symbol"></i></div>
             <h4>Interconnectivity</h4>
             <p>Better interconnectivity between IITD and the rest of the Delhi students</p>
           </div>
@@ -37,7 +37,7 @@ const WhyCAP = () => {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10 d-flex mt-4">
           <div className="icon-box   cap-cards">
-            <div className="icon"><i class="fa-solid fa-shield"></i></div>
+            <div className="icon"><i class="fa-solid fa-star"></i></div>
             <h4>IIT Delhi events</h4>
             <p>Top performing CAs will get a chance to visit IIT Delhi Campus and attend Kaizen'23.
             </p>
@@ -45,7 +45,7 @@ const WhyCAP = () => {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10 d-flex mt-4">
           <div className="icon-box   cap-cards">
-            <div className="icon"><i class="fa-solid fa-shield"></i></div>
+            <div className="icon"><i class="fa-solid fa-trophy"></i></div>
             <h4>Prizes</h4>
             <p>Prizes worth Rs. 1 lakhs consisting of merchandise and coupons of top brands.
             </p>
@@ -54,7 +54,7 @@ const WhyCAP = () => {
 
         <div className="col-lg-4 col-md-6 col-sm-8 col-xs-10 d-flex mt-4">
           <div className="icon-box   cap-cards">
-            <div className="icon"><i class="fa-solid fa-user"></i></div>
+            <div className="icon"><i class="fa-solid fa-graduation-cap"></i></div>
             <h4>Internship Opportunities</h4>
             <p>Top Performers get Internship Opportunities and Exclusive Merchandise.
             </p>
