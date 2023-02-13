@@ -7,7 +7,7 @@ const Contact = ({id}) => {
     <div className="contact-background" style={{ backgroundColor: "#000", overflowX: "hidden",overflowY: "hidden", fontFamily: 'Merriweather' }} id={id}>
       <section id="contact" className="section-padding wow fadeIn delay-05s animated" style={{ visibility: "visible", animationName: "fadeIn" }}>
         <div className="row1">
-          <h1 className="title-text text-gradient" style={{ color: " #ffa108"}} >
+          <h1 className="title-text text-gradient" style={{ color: " #b6ffc5"}} >
             For Queries Contact Us
           </h1>
           <div className="hrx">

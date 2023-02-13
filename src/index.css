@@ -83,7 +83,7 @@ hr {
 .text-gradient {
   background: linear-gradient(
     to right,
-    var(--primary-color),
+    #b6ffc5,
     var(--white-color)
   );
   -webkit-text-fill-color: transparent;
