@@ -31,12 +31,14 @@
     background-color: aquamarine;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    transform: scaleX(1);
+    transform-origin: bottom left;  
   }
   
-  .nav-link-active::after {
+  /* .nav-link-active::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  } 
+  }  */
 }
 
 @media only screen and (min-height: 500px) {

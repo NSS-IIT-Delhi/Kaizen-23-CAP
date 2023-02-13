@@ -7,7 +7,7 @@ import advertize from "../assets/advertize.png";
 import gear from "../assets/gear.png";
 import social from "../assets/social.png";
 
-export default function Role() {
+export default function Role({id}) {
   const roleData = [
     {
       title: "Organize",
@@ -37,7 +37,7 @@ export default function Role() {
   ];
 
   return (
-    <div className="app__flex app__container">
+    <div className="app__flex app__container" id={id}>
       <h2 className="head-text text-gradient">What will you do?</h2>
       <hr />
       <div className="role__container">

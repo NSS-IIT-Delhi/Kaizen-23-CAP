@@ -39,7 +39,7 @@ export default function Header({id}){
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
-              
+              <a class="nav-link float-left" href="https://www.kaizeniitd.in/">Kaizen'23</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -48,26 +48,40 @@ export default function Header({id}){
               <div class="collapse navbar-collapse float-right" id="menu">
                   <ul class="navbar-nav ms-auto">
 
-                  <li class="nav-item mx-4 hover-underline-animation">
+                  <li class="nav-item mx-3 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="home" spy={true} offset={-70} duration={500}>
                             Home
                           </Link></a>
                       </li>
 
-                      <li class="nav-item mx-4 hover-underline-animation">
+                      <li class="nav-item mx-3 hover-underline-animation">
+                        <a class="nav-link">
+                          <Link activeClass="nav-link-active" to="whycap" spy={true} offset={-70} duration={500}>
+                            Why CAP?
+                          </Link></a>
+                      </li>
+
+                      <li class="nav-item mx-3 hover-underline-animation">
+                        <a class="nav-link">
+                          <Link activeClass="nav-link-active" to="roles" spy={true} offset={-70} duration={500}>
+                            Roles
+                          </Link></a>
+                      </li>
+
+                      <li class="nav-item mx-3 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="about" spy={true} offset={-70} duration={500}>
                             About
                           </Link></a>
                       </li>
 
-                      <li class="nav-item mx-4 hover-underline-animation">
+                      <li class="nav-item mx-3 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="contacts" spy={true} offset={-70} duration={500}>
                             Contact
                           </Link></a>
-                      </li>
+                      </li>                      
 
                   </ul>
 
@@ -84,7 +98,7 @@ export default function Header({id}){
           </nav>
         </header>      
 
-        <div class="head container-fluid px-xl-5 px-lg-5 px-md-5 px-sm-4 px-3">
+        <div class="head container-fluid">
           <div class="cap">
             <div class="row justify-content-center">
               <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 justify-content-center"  
