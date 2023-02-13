@@ -93,17 +93,17 @@ section .container {
     font-size:0.8rem;
     border-radius: 5px;
 }
-.services .icon-box:hover {
+/* .services .icon-box:hover {
     background: rgba(0, 0, 0);
     border-color: #ffbe55;
     transform: translateY(-2.5px);
     box-shadow: 0px 0px 10px #fae5c3;
-}
+} */
 .services .icon-box .icon {
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: #ffbe55;
+    /* background: #ffbe55; */
     border-radius: 5px;
     transition: all 0.3s ease-out 0s;
     display: flex;
@@ -113,33 +113,21 @@ section .container {
     transform-style: preserve-3d;
 }
 
-.services .icon-box .icon::before {
-    position: absolute;
-    content: "";
-    left: -8px;
-    top: -8px;
-    height: 100%;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 5px;
-    /* transition: all 0.3s ease-out 0s;
-    transform: translateZ(-1px); */
-}
-
 .services .icon-box .icon i {
-    color: #fff;
-    font-size: 28px;
+    color: aquamarine;
+    font-size: 50px;
 }
 
 .services .icon-box h4 {
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 22px;
+    color: #ffbe55;
 }
 
 .services .icon-box p {
     line-height: 24px;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 0;
     /*changes below made by Abhijeet*/
     font-family:var(--secondary-font);
