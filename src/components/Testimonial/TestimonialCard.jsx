@@ -11,7 +11,7 @@ export default function TestimonialCard(props) {
             verticalAlign:'bottom',
             width: "40px",
             height: "40px",
-            color: "#f5b041",
+            color: "aquamarine",
           }}
         />
         {description}

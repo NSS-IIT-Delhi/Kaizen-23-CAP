@@ -1,10 +1,10 @@
 import React from "react";
 import "./Role.css";
 import RoleCard from "./RoleCard";
-import organize from "../assets/organize.png";
-import advertize from "../assets/advertize.png";
-import gear from "../assets/gear.png";
-import social from "../assets/social.png";
+// import organize from "../assets/organize.png";
+// import advertize from "../assets/advertize.png";
+// import gear from "../assets/gear.png";
+// import social from "../assets/social.png";
 import event from '../assets/event.png'
 import publicity from '../assets/publicity.png'
 import socialmedia from '../assets/socialmedia.png'
