@@ -48,40 +48,45 @@ export default function Header({id}){
               <div class="collapse navbar-collapse float-right" id="menu">
                   <ul class="navbar-nav ms-auto">
 
-                  <li class="nav-item mx-3 hover-underline-animation">
+                  <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="home" spy={true} offset={-70} duration={500}>
                             Home
                           </Link></a>
                       </li>
 
-                      <li class="nav-item mx-3 hover-underline-animation">
+                      <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="about" spy={true} offset={-70} duration={500}>
                             About
                           </Link></a>
                       </li>
 
-                      <li class="nav-item mx-3 hover-underline-animation">
+                      <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="whycap" spy={true} offset={-70} duration={500}>
                             Why CAP?
                           </Link></a>
                       </li>
 
-                      <li class="nav-item mx-3 hover-underline-animation">
+                      <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="roles" spy={true} offset={-70} duration={500}>
                             Roles
                           </Link></a>
                       </li>
 
-                      <li class="nav-item mx-3 hover-underline-animation">
+                      <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="contacts" spy={true} offset={-70} duration={500}>
                             Contact
                           </Link></a>
-                      </li>                      
+                      </li>  
+
+                      <li class="nav-item mx-2">
+                        <button class="applybtn mt-0" onClick={form}>Register</button>  
+                      </li>                         
+            
 
                   </ul>
 
