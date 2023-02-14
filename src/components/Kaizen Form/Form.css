@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+
 #formSec {
-    display: flex;
+    /* display: block; */
     height: auto;
     padding: 6rem 2rem 2rem;
     background-color: #28282b;
@@ -7,12 +9,6 @@
     font-family: 'Merriweather', serif;
 
 }
-body{
-    margin:none;
-    padding:none;
-}
-
-
 
 .formDiv {
     display: grid;
@@ -24,9 +20,9 @@ body{
 
 select,
 input {
-    border-radius: 1rem;
     width: 60%;
     padding: 8px;
+    border-radius: 0;
     /* size: 10px; */
 }
 
@@ -46,7 +42,7 @@ fieldset {
 }
 
 .pure-group {
-    display: grid;
+    /* display: grid; */
     place-items: center;
     width: 60vw;
     height: 5rem;
@@ -60,13 +56,13 @@ fieldset {
 }
 
 textarea{
-    border-radius: 1rem;
     width: 60%;
     padding: 8px;
     overflow-y: hidden;
     height: 5em;
     resize: none;
     font-family: 'Arial', sans-serif;
+
 }
 .inner::-webkit-scrollbar {
     display: none;
@@ -76,22 +72,10 @@ select:not(#cc){
     min-width: 170px;
 }
 
-.img {
-    width: 200px;
-    height: auto;
-    border-radius: 1em 1em 0 0;
-    position: relative;
-}
-
-.img__container {
-    height: auto;
-    overflow: hidden;
-    margin-bottom: 1em;
-}
 
 .content {
-    display: -ms-grid;
-    display: grid;
+    /* display: -ms-grid; */
+    /* display: grid; */
     place-items: center;
     padding: 0 2em;
     margin-bottom: 1.8em;
@@ -104,7 +88,7 @@ select:not(#cc){
 
 #sub {
     font-family: 'Merriweather', serif;
-    width: 50%;
+    width: 25%;
     color: white;
     background-color: green;
     border: 2px solid white;
@@ -113,4 +97,8 @@ select:not(#cc){
 #sub:hover {
     background-color: darkgreen;
     cursor: pointer;
+}
+
+.question{
+    float:left;
 }
