@@ -39,10 +39,18 @@ export default function Header({id}){
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
-              <a class="nav-link float-left" href="https://www.kaizeniitd.in/">Kaizen'23</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
+              <a class="ham-link float-left" href="https://www.kaizeniitd.in/">Kaizen'23</a>
+              {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
                 <span class="navbar-toggler-icon"></span>
-              </button>
+              </button> */}
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <div class="menubar">
+                  <span class="first-span"></span>
+                  <span class="second-span"></span>
+                  <span class="third-span"></span>
+                </div>
+              </button>              
 
 
               <div class="collapse navbar-collapse float-right" id="menu">
