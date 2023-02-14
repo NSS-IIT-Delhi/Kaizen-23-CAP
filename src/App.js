@@ -6,7 +6,8 @@ import Footer from '../src/components/footer/Footer';
 import WhyCap from '../src/components/footer/WhyCAP'
 import Contact from '../src/components/footer/Contact'
 import KaizenForm from "./components/Kaizen Form/KaizenForm";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Stats from "./components/stats/Stats";
 
 function App() {
   return (
@@ -15,16 +16,17 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <Header id="home"/>
-              <WhyCap id="whycap"/>
-              <Role id="roles"/>
-              <Testimonial id="about"/>
+              <Header id="home" />
+              <WhyCap id="whycap" />
+              <Role id="roles" />
+              <Stats />
+              <Testimonial id="about" />
               <Contact id="contacts" />
               <Footer />
             </>
           } />
-          <Route path="/form" element={<KaizenForm />}/>
-         </Routes>
+          <Route path="/form" element={<KaizenForm />} />
+        </Routes>
       </Router>
     </>
   );
