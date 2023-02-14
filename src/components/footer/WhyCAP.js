@@ -27,7 +27,7 @@ const WhyCAP = ({id}) => {
           <div className="icon-box   cap-cards">
             <div className="icon"><i class="fa-solid fa-trophy"></i></div>
             <h4 className="text-gradient">Prizes</h4>
-            <p>Prizes worth Rs. 1 lakhs consisting of merchandise and coupons of top brands.
+            <p>Exciting prizes along with Vouchers and discount coupons of top brands.
             </p>
           </div>
         </div>

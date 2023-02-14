@@ -20,6 +20,8 @@ function Stats() {
             <div>
                 <div className='container'>
 
+                <h2 className="head-text text-gradient">Stats</h2>
+                <hr />
 
                     <div className='row'>
                         <div className='col-md-3 mt-5'>
@@ -27,7 +29,7 @@ function Stats() {
                                 <p style={{
                                     fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-solid fa-building-columns"></i></p>
-                                <h3>2500 +</h3>
+                                <h3>3000 +</h3>
                                 <h3>Colleges</h3>
                             </center>
                         </div>
@@ -36,7 +38,7 @@ function Stats() {
                                 <p style={{
                                     fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-solid fa-user"></i></p>
-                                <h3>7000 +</h3>
+                                <h3>8000 +</h3>
                                 <h3>Applicants</h3>
                             </center>
                         </div>
@@ -54,7 +56,7 @@ function Stats() {
                                 <p style={{
                                     fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-sharp fa-solid fa-award"></i></p>
-                                <h3>25 +</h3>
+                                <h3>50 +</h3>
                                 <h3>Awards</h3>
                             </center>
                         </div>

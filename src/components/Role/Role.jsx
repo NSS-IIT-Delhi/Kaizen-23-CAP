@@ -13,30 +13,30 @@ import setting from '../assets/setting.png'
 export default function Role({id}) {
   const roleData = [
     {
-      title: "Organize",
+      title: "Be the Face of the Event",
       content:
-        "Organize events, workshops and sessions regarding Kaizen and what it has to offer with assistance from mentors.",
+        "You will serve as the representative of the event, answering queries from other students and providing information about the event and its activities",
       // img: organize,
       img: event,
     },
     {
       title: "Publicity",
       content:
-        "Managing the public image of Ecell and spreading information about E cell through various activities like putting up posters on the notice board.",
+        "You will be responsible for promoting the event through various channels, such as social media, posters, and personal interactions",
       // img: advertize,
       img: publicity,
     },
     {
       title: "Social Media",
       content:
-        "Sharing e-posters on social media platforms like facebook, instagram and WhatsApp. Forwarding mails to the college mailing list. Be the face of IITD in your college.",
+        "As a campus ambassador, your primary role is to spread awareness about the event Kaizen'23 among your peers and other students in your network.",
       // img: social,
       img: socialmedia,
     },
     {
-      title: "Conduct",
+      title: "Represent Your College",
       content:
-        "Help in management of elimination rounds in your college and city to select participants for the main event.",
+        "As a campus ambassador, you will represent your college and help to build relationships between Kaizen IIT Delhi and other institutions.",
       // img: gear,
       img: setting,
     },
@@ -44,7 +44,7 @@ export default function Role({id}) {
 
   return (
     <div className="app__flex app__container" id={id}>
-      <h2 className="head-text text-gradient">What will you do?</h2>
+      <h2 className="head-text text-gradient">Roles</h2>
       <hr />
       <div className="role__container">
         {roleData.map((data) => {
