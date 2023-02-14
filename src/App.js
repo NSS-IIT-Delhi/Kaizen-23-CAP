@@ -17,9 +17,9 @@ function App() {
           <Route path="/" element={
             <>
               <Header id="home" />
+              <Stats />
               <WhyCap id="whycap" />
               <Role id="roles" />
-              <Stats />
               <Testimonial id="about" />
               <Contact id="contacts" />
               <Footer />
