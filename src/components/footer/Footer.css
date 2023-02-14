@@ -33,7 +33,7 @@ footer i {
     /* width: 5.56%;
     height: 9.07%; */
     margin: 0 20px;
-    color: #ffbe55;
+    color: aquamarine;
     border-radius: 50%;
 }
 .WebLink a{
@@ -46,7 +46,7 @@ footer i {
 }
 
 .WebLink a:hover{
-    color: #ffbe55;
+    color: rgb(39, 254, 182);
     opacity: .9;
     text-decoration: underline;
 }

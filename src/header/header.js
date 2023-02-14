@@ -57,6 +57,13 @@ export default function Header({id}){
 
                       <li class="nav-item mx-3 hover-underline-animation">
                         <a class="nav-link">
+                          <Link activeClass="nav-link-active" to="about" spy={true} offset={-70} duration={500}>
+                            About
+                          </Link></a>
+                      </li>
+
+                      <li class="nav-item mx-3 hover-underline-animation">
+                        <a class="nav-link">
                           <Link activeClass="nav-link-active" to="whycap" spy={true} offset={-70} duration={500}>
                             Why CAP?
                           </Link></a>
@@ -66,13 +73,6 @@ export default function Header({id}){
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="roles" spy={true} offset={-70} duration={500}>
                             Roles
-                          </Link></a>
-                      </li>
-
-                      <li class="nav-item mx-3 hover-underline-animation">
-                        <a class="nav-link">
-                          <Link activeClass="nav-link-active" to="about" spy={true} offset={-70} duration={500}>
-                            About
                           </Link></a>
                       </li>
 
@@ -110,7 +110,16 @@ export default function Header({id}){
                   "font-family": 'Merriweather',
                   "color":"aquamarine",
                 }}>
-                CAMPUS AMBASSADOR PROGRAM
+                CAMPUS AMBASSADOR <span style={{color : "white"}}>PROGRAM</span> 
+              <div style={{
+                  "padding-top" : "5%",
+                  "fontSize":20,
+                  "font-family": 'arial',
+                  "color":"white",
+                }}> 
+                <p>Kaizen, IIT Delhi's social annual fest, is proud to announce the launch of its Campus Ambassador Program. Grab the opportunity to be part of a dynamic team and gain valuable leadership and communication skills</p>
+                <p>Don't miss out on this exciting chance and apply to be a Campus Ambassador today!</p>
+                </div>
               </div>
             </div>
             
