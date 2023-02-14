@@ -6,6 +6,7 @@ import Footer from '../src/components/footer/Footer';
 import WhyCap from '../src/components/footer/WhyCAP'
 import Contact from '../src/components/footer/Contact'
 import KaizenForm from "./components/Kaizen Form/KaizenForm";
+import Navbar from "./components/Kaizen Form/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Stats from "./components/stats/Stats";
 
@@ -25,7 +26,7 @@ function App() {
               <Footer />
             </>
           } />
-          <Route path="/form" element={<KaizenForm />} />
+          <Route path="/form" element={<><Navbar id="home"/><KaizenForm /></>} />
         </Routes>
       </Router>
     </>
