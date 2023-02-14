@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 import "./style.css"
 import 'animate.css';
-import logo from "./logo.png"
+import logo from "../assets/logo.png"
 
 export default function Header({id}){
 
@@ -40,9 +40,6 @@ export default function Header({id}){
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
               <a class="ham-link float-left" href="https://www.kaizeniitd.in/">Kaizen'23</a>
-              {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" >
-                <span class="navbar-toggler-icon"></span>
-              </button> */}
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <div class="menubar">
@@ -56,7 +53,7 @@ export default function Header({id}){
               <div class="collapse navbar-collapse float-right" id="menu">
                   <ul class="navbar-nav ms-auto">
 
-                  <li class="nav-item mx-2 hover-underline-animation">
+                      <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
                           <Link activeClass="nav-link-active" to="home" spy={true} offset={-70} duration={500}>
                             Home
@@ -93,18 +90,8 @@ export default function Header({id}){
 
                       <li class="nav-item mx-2">
                         <button class="applybtn mt-0" onClick={form}>Register</button>  
-                      </li>                         
-            
-
+                      </li>                                 
                   </ul>
-
-
-                  {/* <ul class="navbar-nav">
-                      <li>
-                          <span>
-                          </span>
-                      </li>
-                  </ul> */}
               </div>
 
             </div>
@@ -117,8 +104,6 @@ export default function Header({id}){
               <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 justify-content-center"  
                 style={{
                   "text-align":"center",
-                  // "align-items":"center",
-                  // "display":"flex",
                   "fontSize":45,
                   "font-family": 'Merriweather',
                   "color":"aquamarine",
