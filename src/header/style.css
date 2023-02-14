@@ -41,31 +41,14 @@
   }  */
 }
 
-@media only screen and (min-height: 500px) {
-  .applybox {
-    position: absolute;
-    bottom: 100px;
-  }
-  .cap {
-    padding-top:10rem;
-    align-self: center;
-  }
-  .main {
-    position: absolute;
-    top: 170px;
-  }  
+
+.cap {
+  padding-top:10rem;
+  align-self: center;
+  animation: fadeInUp;
+  animation-duration: 1.5s;  
 }
 
-@media only screen and (max-height: 500px) {
-  .applybox {
-    position: absolute;
-    bottom: 10px;
-  }
-  .cap {
-    position: absolute;
-    top: 130px;
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -99,7 +82,7 @@ body {
   background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
 }
 
@@ -107,7 +90,7 @@ body {
   background: aquamarine;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
 }
@@ -160,10 +143,6 @@ body {
   animation-duration: 1.5s;
 }
 
-.cap {
-  animation: fadeInLeft;
-  animation-duration: 1.5s;
-}
 
 .gradient-white {
   /* font-size: 72px; */
