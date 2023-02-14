@@ -15,7 +15,7 @@ const Footer = () => {
       <br/>
       <div className="row">
         <h4 style={{color: "#ffbe55"}}>
-          <a target="_blank " href="outreach.kaizen-iitd@gmail.com">
+          <a target="_blank " href="mailto:outreach.kaizen-iitd@gmail.com">
           <i className="fa fa-envelope" aria-hidden="true"></i>
           </a>
           <a target="_blank " href="https://www.facebook.com/NSSIITDelhi">
