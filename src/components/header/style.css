@@ -34,24 +34,13 @@
     transform: scaleX(1);
     transform-origin: bottom left;  
   }
-  
-  /* .nav-link-active::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }  */
 }
-
 
 .cap {
   padding-top:10rem;
   align-self: center;
   animation: fadeInUp;
   animation-duration: 1.5s;  
-}
-
-
-* {
-  box-sizing: border-box;
 }
 
 .navbar {
@@ -81,6 +70,7 @@ body {
 .nav-link {
   background: white;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -89,6 +79,7 @@ body {
 .nav-link:hover {
   background: aquamarine;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -98,6 +89,7 @@ body {
 .ham-link {
   background: aquamarine;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -106,6 +98,7 @@ body {
 .nav-link-active {
   background: aquamarine;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -114,20 +107,15 @@ body {
 }
 
 .bg {
-  background:linear-gradient(90deg, rgba(6, 12, 34, 0.8) -24.3%, rgba(6, 12, 34, 0.8) -11.13%, rgba(6, 12, 34, 0.8) 57.24%), rgba(6, 12, 34, 0.8) url("./iitd.jpg") no-repeat fixed;
-
+  background:linear-gradient(90deg, rgba(6, 12, 26, 0.8), rgba(6, 12, 42, 0.8), rgba(6, 12, 30, 0.8)), rgba(6, 12, 38, 0.8) url("../assets/iitd.jpg") no-repeat fixed;
   background-size: cover;
   min-height: 100vh;
-  /* position: relative; */
-  font-family: "Montserrat", sans-serif;
-  /* background-color: #141414; */
 }
 
 
 #navbar {
   overflow: hidden;
   background-color: #f1f1f1;
-  /* padding: 90px 10px; */
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -150,29 +138,12 @@ body {
 }
 
 
-.gradient-white {
-  /* font-size: 72px; */
-  background: linear-gradient(to right,#c5c5c5, rgb(255, 255, 255));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gradient-yellow {
-  /* font-size: 72px; */
-  background: linear-gradient(to right,rgb(245, 176, 65), rgba(245, 176, 65, 0.658));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   color: rgb(245, 176, 65)
 }
-
-
 
 .logo {
   cursor: pointer;
