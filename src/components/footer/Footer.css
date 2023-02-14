@@ -1,13 +1,13 @@
 footer {
     overflow-x: hidden;
-    background-color: #222222;
+    background-color: black;
     color: #ffffff;
     padding-top: 33px;
     padding-bottom: 10px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: bold;
-    height: auto;
+    height: 40vh;
     margin-top: 0px;
     font-family: 'Merriweather'
     /* text-align: center; */
@@ -39,7 +39,7 @@ footer i {
 .WebLink a{
     font-size: 16px;
     text-decoration: none;
-    color: #ffe8c3;
+    color: aquamarine;
     width: inherit;
     margin: auto;
     margin-top: 20px;

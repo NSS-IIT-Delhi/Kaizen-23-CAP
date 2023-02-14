@@ -25,37 +25,37 @@ function Stats() {
                         <div className='col-md-3 mt-5'>
                             <center style={{ lineHeight: '1' }}>
                                 <p style={{
-                                    fontSize: '70px', color: 'aquamarine'
+                                    fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-solid fa-building-columns"></i></p>
-                                <h4>2500 +</h4>
-                                <h4>Colleges</h4>
+                                <h3>2500 +</h3>
+                                <h3>Colleges</h3>
                             </center>
                         </div>
                         <div className='col-md-3 mt-5'>
                             <center style={{ lineHeight: '1' }}>
                                 <p style={{
-                                    fontSize: '70px', color: 'aquamarine'
+                                    fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-solid fa-user"></i></p>
-                                <h4>7000 +</h4>
-                                <h4>Applicants</h4>
+                                <h3>7000 +</h3>
+                                <h3>Applicants</h3>
                             </center>
                         </div>
                         <div className='col-md-3 mt-5'>
                             <center style={{ lineHeight: '1' }}>
                                 <p style={{
-                                    fontSize: '70px', color: 'aquamarine'
+                                    fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-solid fa-headset"></i></p>
-                                <h4>5000 +</h4>
-                                <h4>CAs Selected</h4>
+                                <h3>5000 +</h3>
+                                <h3>CAs Selected</h3>
                             </center>
                         </div>
                         <div className='col-md-3 mt-5'>
                             <center style={{ lineHeight: '1' }}>
                                 <p style={{
-                                    fontSize: '70px', color: 'aquamarine'
+                                    fontSize: '100px', color: 'aquamarine'
                                 }}><i class="fa-sharp fa-solid fa-award"></i></p>
-                                <h4>25 +</h4>
-                                <h4>Awards</h4>
+                                <h3>25 +</h3>
+                                <h3>Awards</h3>
                             </center>
                         </div>
                     </div>

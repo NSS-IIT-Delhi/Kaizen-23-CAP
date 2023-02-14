@@ -15,7 +15,7 @@ const Footer = () => {
       <br/>
       <div className="row">
         <h4 style={{color: "#ffbe55"}}>
-          <a target="_blank " href="mailto:outreach.kaizen-iitd@gmail.com">
+          <a target="_blank " href="mailto:outreach.kaizen.iitd@gmail.com">
           <i className="fa fa-envelope" aria-hidden="true"></i>
           </a>
           <a target="_blank " href="https://www.facebook.com/NSSIITDelhi">
@@ -39,7 +39,7 @@ const Footer = () => {
       <div className="row WebLink" style={{fontFamily: 'Merriweather'}}>
         {/* <h3 style={{textTransform: "unset"}}>With Love from E-Cell,<br className="display-sm"/>
         IIT Kanpur</h3> */}
-        <a href="https://www.kaizeniitd.in" target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
+        <a href='#' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
       </div>
     </footer>
   )

@@ -20,7 +20,7 @@ function App() {
               <WhyCap id="whycap" />
               <Stats />
               <Role id="roles" />
-              <Testimonial id="about" />
+              <Testimonial id="home" />
               <Contact id="contacts" />
               <Footer />
             </>

@@ -6,7 +6,7 @@ const WhyCAP = ({id}) => {
 <section id="services" className="services section-show __web-inspector-hide-shortcut__">
     <div className="container">
       <div className="section-title whysp mt-5">
-          <h1 className='text-center text-gradient'>What’s in it for you?</h1>
+          <h1 className='text-center text-gradient'>Why CAP?</h1>
           {/* <div className="hrx">
           <hr/>
           </div> */}

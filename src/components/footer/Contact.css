@@ -1,6 +1,6 @@
 #contact {
   width: 100vw;
-  /* background: #000000; */
+  background: #28282b;
   min-height: 80vh;
   padding-top: 100px;
   margin-bottom: -3px;
@@ -8,9 +8,8 @@
 }
 
 .text-gradient {
-  background: linear-gradient(to right,
-    #b6ffc5,
-      var(--white-color));
+  background: 
+    #7FFFD4;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
@@ -112,6 +111,6 @@
 }
 
 #contact h4 a {
-  color: white;
+  color: aquamarine;
   margin: 0 8px;
 }
