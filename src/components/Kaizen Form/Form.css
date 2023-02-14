@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+
+#formSec {
+    display: grid;
+    height: auto;
+    padding: 6rem 2rem 2rem;
+    background-color: #28282b;
+    color:whitesmoke;
+    font-family: 'Merriweather', serif;
+
+}
+
+.formDiv {
+    display: grid;
+    place-items: center;
+    /* max-width: 768px; */
+    /* font-size: medium; */
+    margin: auto;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 0;
+    border:1.5px solid aquamarine;
+
+    background-color: black;
+    color:white;
+    height:50px;
+    /* size: 10px; */
+}
+
+option{
+    color:white;
+    background-color: black;
+}
+
+fieldset {
+    border:0px;
+    text-align: center;
+    display: inline-grid;
+    place-items: center;
+    width: 70vw;
+    height: 5rem;
+    padding: 20px;
+    overflow: contain;
+} 
+
+@media only screen and (max-width: 768px) {
+    fieldset {
+        max-width: 768px;
+
+    }
+}
+
+.pure-group {
+    display: grid;
+    place-items: center;
+    width: 60vw;
+    height: 5rem;
+    border: 0px;
+
+}
+
+label{
+    color:aquamarine;
+}
+
+#cc{
+    width: 80px;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    overflow-y: hidden;
+    height: 5em;
+    resize: none;
+    font-family: 'Arial', sans-serif;
+    color:white;
+    background-color: black;
+    border: 1.5px solid aquamarine;
+
+
+}
+
+.inner::-webkit-scrollbar {
+    display: none;
+  }
+
+select:not(#cc){
+    min-width: 170px;
+}
+
+
+.content {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    padding: 0 2em;
+    margin-bottom: 1.8em;
+    transform: scale(1.2, 1.1);
+}
+
+.formSub {
+    margin: 1rem 0;
+}
+
+#sub {
+    font-family: 'Merriweather', serif;
+    width: 25%;
+    color: black;
+    background-color: aquamarine;
+    border: 2px solid white;
+}
+
+#sub:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+}
