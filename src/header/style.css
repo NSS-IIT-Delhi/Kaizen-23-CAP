@@ -95,12 +95,18 @@ body {
   cursor: pointer;
 }
 
+.ham-link {
+  background: aquamarine;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
 .nav-link-active {
   background: aquamarine;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-
 }
 
 .navbar {
@@ -199,4 +205,78 @@ body {
 .applybtn:hover {
   background: aquamarine;
   color: black;
+}
+
+.menubar {
+  position: absolute,fixed;
+  right: 4%;
+  top: 40%;
+  cursor: pointer;
+  opacity: .8;
+  transition: all .4s ease;
+}
+
+.menubar span {
+  position: relative;
+  background-color: transparent;
+  height: 2px;
+  width: 20px;
+  display: block;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+.menubar .first-span {
+  width: 35px;
+}
+
+.menubar .first-span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all .5s ease;
+
+}
+
+.menubar .second-span {
+  width: 35px;
+}
+
+.menubar .second-span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all .3s ease;
+}
+
+.menubar .third-span {
+  width: 35px;
+}
+
+.menubar .third-span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all .3s ease;
+}
+
+.menubar:hover .second-span::before,
+.menubar:hover .first-span::before {
+  width: 100%;
+}
+
+.menubar:hover {
+  opacity: 1;
 }
