@@ -135,7 +135,7 @@ export default class KaizenForm extends React.Component {
         return (
             <>                <section className="wrapper" id="formSec">
                 <div className="formDiv">
-                    <h2 className="subtitle" data-aos="fade-up">
+                    <h2 className="subtitle" data-aos="fade-up" style={{color : "aquamarine"}}>
                         CAP Registration Form
                     </h2>
                     <div className="content" id="bod">
@@ -3728,6 +3728,7 @@ export default class KaizenForm extends React.Component {
                                         id="Instagram"
                                         name="Instagram"
                                         data-aos="fade-up"
+                                        required
                                     />
                                     </div>
                                 </fieldset>
@@ -3735,7 +3736,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-4 ">
                                 <div class="container">
                                     <label htmlFor="Linkedin" data-aos="fade-up">
-                                        Linkedin Profile Link:
+                                        LinkedIn Profile Link:
                                     </label>
                                     <br />
                                     <input type="text" id="Linkedin" name="Linkedin" data-aos="fade-up" />
