@@ -38,8 +38,8 @@ export default function Navbar({id}){
         <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s",  "background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
-              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
-              <a class="ham-link float-left" href="https://www.kaizeniitd.in/">Kaizen'23</a>
+              <a class="navbar-brand px-4" href="https://cap-kaizen-iitd.netlify.app/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
+              <a class="ham-link float-left" href="https://cap-kaizen-iitd.netlify.app/">Kaizen'23</a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <div class="menubar">
@@ -54,42 +54,39 @@ export default function Navbar({id}){
                   <ul class="navbar-nav ms-auto">
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link">
-                          <Link activeClass="nav-link-active" to="home" spy={true} offset={-70} duration={500}>
-                            Home
-                          </Link></a>
+                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
+                          Home
+                          </a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link">
-                          <Link activeClass="nav-link-active" to="about" spy={true} offset={-70} duration={500}>
+                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
                             About
-                          </Link></a>
+                          </a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link">
-                          <Link activeClass="nav-link-active" to="whycap" spy={true} offset={-70} duration={500}>
+                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
+
                             Why CAP?
-                          </Link></a>
+                          </a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link">
-                          <Link activeClass="nav-link-active" to="roles" spy={true} offset={-70} duration={500}>
+                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
+
                             Roles
-                          </Link></a>
+                          </a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link">
-                          <Link activeClass="nav-link-active" to="contacts" spy={true} offset={-70} duration={500}>
-                            Contact
-                          </Link></a>
+                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
+                          Contact
+                          </a>
                       </li>  
 
                       <li class="nav-item mx-2">
-                        <button class="applybtn mt-0" onClick={form}>Register</button>  
+                        <button href="#" class="applybtn mt-0">Register</button>  
                       </li>                                 
                   </ul>
               </div>

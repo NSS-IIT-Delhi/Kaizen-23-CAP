@@ -135,7 +135,7 @@ export default class KaizenForm extends React.Component {
         return (
             <>                <section className="wrapper" id="formSec">
                 <div className="formDiv">
-                    <h2 className="subtitle" data-aos="fade-up">
+                    <h2 className="subtitle" data-aos="fade-up" style={{color : "aquamarine"}}>
                         CAP Registration Form
                     </h2>
                     <div className="content" id="bod">
@@ -3756,7 +3756,7 @@ export default class KaizenForm extends React.Component {
                                 </fieldset>
                                 <br />
 
-                                <fieldset style={{ placeItems: "center" }}>
+                                <fieldset style={{ placeItems: "center", margin :  "3%"}}>
                                     <input
                                         className="formSub"
                                         type="Submit"
@@ -3768,6 +3768,7 @@ export default class KaizenForm extends React.Component {
                                 <br />
                                 <br />
                                 <br />
+                                <p style={{ textAlign : "center", color : "aquamarine"}}><a className="JoinWhchat" href="http://chat.whatsapp.com/FmbjP0IXJHZCixJ6Zc5Szm" style={{ textDecoration : "underline", color : "rgb(94, 94, 244)"}}> Join   </a> for info about Kaizen events and competitions </p>
                             </div>
                         </form>
 

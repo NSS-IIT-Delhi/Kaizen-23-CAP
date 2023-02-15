@@ -119,3 +119,13 @@ select:not(#cc){
     background-color: darkcyan;
     cursor: pointer;
 }
+
+#JoinWhchat{
+    text-decoration: underline;
+    color: rgb(94, 94, 244);
+}
+
+#JoinWhchat:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+}
