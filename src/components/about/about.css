@@ -1,3 +1,14 @@
 .hrx{
     font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+    width : 60%;
+    margin : auto;
 }
+
+@media screen and (max-width: 767px) {
+    .hrx {
+        font-size: 1rem;
+        width : 80%;
+    margin : auto;
+    }
+  }
