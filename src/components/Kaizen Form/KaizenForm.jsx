@@ -135,7 +135,7 @@ export default class KaizenForm extends React.Component {
         return (
             <>                <section className="wrapper" id="formSec">
                 <div className="formDiv">
-                    <h2 className="subtitle" data-aos="fade-up" style={{color : "aquamarine"}}>
+                    <h2 className="subtitle" data-aos="fade-up">
                         CAP Registration Form
                     </h2>
                     <div className="content" id="bod">
@@ -153,7 +153,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset class="col-md-6">
                                     <div class="container">
                                         <label htmlFor="Name" data-aos="fade-up">
-                                            Your Name:
+                                            Your Name*:
                                         </label>
                                         <br />
                                         <input
@@ -170,7 +170,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset class="col-md-6">
                                     <div class="container">
                                         <label htmlFor="Mobile" data-aos="fade-up">
-                                            Contact Number(WhatsApp):
+                                            Contact Number(WhatsApp)*:
                                         </label>
                                         <br />
                                         <input
@@ -190,7 +190,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-6">
                                     <div class="container">
                                         <label htmlFor="email" data-aos="fade-up">
-                                            E-mail ID:
+                                            E-mail ID*:
                                         </label>
                                         <br />
                                         <input
@@ -206,7 +206,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-6">
                                     <div class="container">
                                         <label htmlFor="State" data-aos="fade-up">
-                                            College State:
+                                            College State*:
                                         </label>
                                         <br />
                                         <select
@@ -224,7 +224,7 @@ export default class KaizenForm extends React.Component {
                                     <fieldset className="pure-group" class="col-md-6">
                                     <div class="container">
                                         <label htmlFor="City" data-aos="fade-up">
-                                            College City:
+                                            College City*:
                                         </label>
                                         <br />
                                         <select id="state" required name="City" />
@@ -234,15 +234,16 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-6">
                                     <div class="container">
                                         <label htmlFor="College" data-aos="fade-up">
-                                            College Name:
+                                            College Name*:
                                         </label>
                                         <br />
-                                        <input autoComplete="on" list="college name" />
+                                        <input name="college name" list="college name" required/>
                                         <datalist name="college name" id="college name">
                                             <option disabled="" selected="" value="">
                                                 {" "}
                                                 -- select an option --{" "}
                                             </option>
+                                            <option>Other</option>
                                             <option>
                                                 A Radiant Institute of Management and Technology - [ARIMT], Meerut
                                             </option>
@@ -3641,6 +3642,7 @@ export default class KaizenForm extends React.Component {
                                                 École Intuit Lab - French Institute of Design, Digital &amp;
                                                 Strategy, New Delhi
                                             </option>
+ 
                                         </datalist>
                                     </div>
                                 </fieldset>
@@ -3651,10 +3653,10 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-6">
                                 <div class="container">
                                     <label htmlFor="Stream" data-aos="fade-up">
-                                        Stream:
+                                        Stream*:
                                     </label>
                                     <br />
-                                    <select name="Stream" id="Stream">
+                                    <select name="Stream" id="Stream" required>
                                         <option disabled="" selected="" value="">
                                             {" "}
                                             -- select an option --{" "}
@@ -3680,10 +3682,10 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-6">
                                 <div class="container">
                                     <label htmlFor="Year" data-aos="fade-up">
-                                        Year of study:
+                                        Year of study*:
                                     </label>
                                     <br />
-                                    <select name="Year" id="Year">
+                                    <select name="Year" id="Year" required>
                                         <option disabled="" selected="" value="">
                                             {" "}
                                             -- select an option --{" "}
@@ -3702,7 +3704,7 @@ export default class KaizenForm extends React.Component {
                             <fieldset className="pure-group" class="col-md-12">
                             <div class="container">
                                 <label htmlFor="Motivation" data-aos="fade-up">
-                                    What is your motivation to join the program?
+                                    What is your motivation to join the program?*
                                 </label>
                                 <br />
                                 <textarea
@@ -3720,7 +3722,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-4">
                                 <div class="container">
                                     <label htmlFor="Instagram" data-aos="fade-up">
-                                        Instagram Profile Link:
+                                        Instagram Profile Link*:
                                     </label>
                                     <br />
                                     <input
@@ -3736,7 +3738,7 @@ export default class KaizenForm extends React.Component {
                                 <fieldset className="pure-group" class="col-md-4 ">
                                 <div class="container">
                                     <label htmlFor="Linkedin" data-aos="fade-up">
-                                        LinkedIn Profile Link:
+                                        Linkedin Profile Link:
                                     </label>
                                     <br />
                                     <input type="text" id="Linkedin" name="Linkedin" data-aos="fade-up" />
