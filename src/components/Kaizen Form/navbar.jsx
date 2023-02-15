@@ -46,8 +46,8 @@ export default function Navbar({id}){
         <header class="header sticky-top animate__animated animate__fadeInDown" style={{"background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
-              <a class="navbar-brand px-4" href="https://www.kaizeniitd.in/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
-              <a class="ham-link float-left" href="https://www.kaizeniitd.in/">Kaizen'23</a>
+              <a class="navbar-brand px-4" href="https://cap-kaizen-iitd.netlify.app/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
+              <a class="ham-link float-left" href="https://cap-kaizen-iitd.netlify.app/">Kaizen'23</a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <div class="menubar">
@@ -62,6 +62,7 @@ export default function Navbar({id}){
                   <ul class="navbar-nav ms-auto">
 
                       <li class="nav-item mx-2 hover-underline-animation">
+
                         <a class="nav-link" onClick={()=>Home('home')}>Home</a>
                       </li>
 
@@ -83,6 +84,7 @@ export default function Navbar({id}){
 
                       <li class="nav-item mx-2">
                         <button class="applybtn mt-0">Register</button>  
+
                       </li>                                 
                   </ul>
               </div>
