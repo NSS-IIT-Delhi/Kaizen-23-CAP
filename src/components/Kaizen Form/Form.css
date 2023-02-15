@@ -109,7 +109,7 @@ select:not(#cc){
 
 #sub {
     font-family: 'Merriweather', serif;
-    width: 30%;
+    width: 25%;
     color: black;
     background-color: aquamarine;
     border: 2px solid white;
@@ -118,4 +118,10 @@ select:not(#cc){
 #sub:hover {
     background-color: darkcyan;
     cursor: pointer;
+}
+
+ @media screen and (max-width: 452px) {
+  #sub {
+    width: 35%;
+  }
 }
