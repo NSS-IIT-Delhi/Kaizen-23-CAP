@@ -125,3 +125,10 @@ select:not(#cc){
     width: 35%;
   }
 }
+
+ @media screen and (max-width: 380px) {
+  .content {
+    padding: 0 0em;
+    
+}
+}
