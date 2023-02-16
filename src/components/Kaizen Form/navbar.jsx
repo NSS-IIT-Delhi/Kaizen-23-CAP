@@ -1,8 +1,8 @@
 
 import React, { useEffect, useState} from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, scroller } from "react-scroll";
 import { useNavigate } from "react-router-dom";
-import "./style.css"
+import "./navbar.css"
 import 'animate.css';
 import logo from "./logo.png"
 
@@ -26,16 +26,24 @@ export default function Navbar({id}){
   };
 
   let navigate = useNavigate(); 
-  const form = () =>{ 
-    let path = `/form`; 
+  const home = () =>{ 
+    let path = `/`; 
     navigate(path);
   }
+
+  const Home = async (to) => {
+    await home();    
+    await scroller.scrollTo(to, {
+      duration: 1500,
+      offset: -70,
+    });
+  };  
 
   return (
     <div id={id}>
 
       <div style={{"padding-top":"5rem"}}>
-        <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s",  "background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
+        <header class="header sticky-top animate__animated animate__fadeInDown" style={{"background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://cap-kaizen-iitd.netlify.app/"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
@@ -54,39 +62,29 @@ export default function Navbar({id}){
                   <ul class="navbar-nav ms-auto">
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
-                          Home
-                          </a>
+
+                        <a class="nav-link" onClick={()=>Home('home')}>Home</a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
-                            About
-                          </a>
+                        <a class="nav-link" onClick={()=>Home('about')}>About</a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
-
-                            Why CAP?
-                          </a>
+                        <a class="nav-link" onClick={()=>Home('whycap')}>Why CAP?</a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
-
-                            Roles
-                          </a>
+                        <a class="nav-link" onClick={()=>Home('roles')}>Roles</a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
-                        <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
-                          Contact
-                          </a>
-                      </li>  
+                        <a class="nav-link" onClick={()=>Home('contact')}>Contact</a>
+                      </li> 
 
                       <li class="nav-item mx-2">
-                        <button href="#" class="applybtn mt-0">Register</button>  
+                        <button class="applybtn mt-0">Register</button>  
+
                       </li>                                 
                   </ul>
               </div>
