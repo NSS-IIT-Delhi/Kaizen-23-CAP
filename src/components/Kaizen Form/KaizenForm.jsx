@@ -112,25 +112,23 @@ export default class KaizenForm extends React.Component {
         }
     }
     componentDidMount() {
-        this.print_state('sts');
-
-        window.addEventListener("load", function () {
-            const form = document.getElementById('my-form');
-            form.addEventListener("submit", function (e) {
-                e.preventDefault();
-                const data = new FormData(form);
-                const action = e.target.action;
-                fetch(action, {
-                    method: 'POST',
-                    body: data,
-                })
-                    .then(() => {
-                        document.getElementById("bod").innerHTML = "<h4>Thank you for your time. Your response has been submitted.</h4>";
-                    })
-            });
-        });
-
+        this.print_state('sts');   
     }
+    
+    handleSubmit =  (e) => {
+        const form = document.getElementById('my-form');
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+            method: 'POST',
+            body: data,
+        })
+            .then(() => {
+                document.getElementById("bod").innerHTML = "<h4>Thank you for your time. Your response has been submitted.</h4>";
+            })
+    };
+
     render() {
         return (
             <>                <section className="wrapper" id="formSec">
@@ -145,6 +143,7 @@ export default class KaizenForm extends React.Component {
                             data-email="anishbanerjee2002@gmail.com"
                             id="my-form"
                             action="https://script.google.com/macros/s/AKfycbzCApj7aEryEEFtWdtrbSVTZ4SkwiU-KVsMwPJ8pNELkpbHGY4ttE8oL301fvL8-TFT8A/exec"
+                            onSubmit={this.handleSubmit}
                         >
                             <br />
                             <br />
