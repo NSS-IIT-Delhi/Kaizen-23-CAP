@@ -3772,7 +3772,7 @@ export default class KaizenForm extends React.Component {
 
                     </div>
                 </div>
-                                <p style={{ marginTop : "3%", textAlign : "center", color : "aquamarine"}}><a className="JoinWhchat" href="http://chat.whatsapp.com/FmbjP0IXJHZCixJ6Zc5Szm" style={{ textDecoration : "underline", color : "rgb(94, 94, 244)"}}> Join </a> for info about Kaizen events and competitions </p>
+                                <p style={{ textAlign : "center", color : "aquamarine"}}><a className="JoinWhchat" href="http://chat.whatsapp.com/FmbjP0IXJHZCixJ6Zc5Szm" style={{ textDecoration : "underline", color : "rgb(94, 94, 244)"}}> Join </a> for info about Kaizen events and competitions </p>
             </section>
 
             </>
