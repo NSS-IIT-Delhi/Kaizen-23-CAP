@@ -40,8 +40,8 @@ const Board = () => {
     setSearchName("")
   };
   return (
-    <div className="container ">
-      <h1 className='text-center mt-4'>LeaderBoard</h1>
+    <div className="container">
+      <h1 className='text-center mt-4' style={{fontFamily : "Meriweather"}}>LeaderBoard</h1>
       <hr/>
 
         <div className="d-flex justify-content-between mb-1 w-96 m-auto">
@@ -73,7 +73,7 @@ const Board = () => {
             Object.entries(stateLeaders).map(([state, leaders]) => (
               leaders.map((leader, index) => (
                 <tr key={index} className="trow" style={{ marginBottom: '10px !important' }}>
-                  <td>{index + 1}<span style={{marginLeft : "5%"}}>{getIcon(index)}</span></td>
+                <td>{getIcon(index)}<span style={{marginLeft : "5%"}}>{index + 1}</span></td>
                   <td className="p-3">{leader.name}</td>
                   {/* <td className="p-3">{'⭐️'.repeat(leader.stars)}{'★'.repeat(5-leader.stars)}</td> */}
                   <td className="p-3 ">{leader.score}</td>
@@ -83,7 +83,7 @@ const Board = () => {
           ) : (
             leaders.map((leader, index) => (
               <tr key={index} className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>{index + 1} <span style={{marginLeft : "5%"}}>{getIcon(index)}</span></td>
+                <td>{getIcon(index)}<span style={{marginLeft : "5%"}}>{index + 1}</span></td>
                 <td className="p-3">{leader.name}</td>
                 {/* <td className="p-3">{'⭐️'.repeat(getStars(index))}{'★'.repeat(5-getStars(index))}</td> */}
                 <td className="p-3 ">{leader.score}</td>
