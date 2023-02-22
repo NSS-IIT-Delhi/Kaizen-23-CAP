@@ -5,14 +5,15 @@ const Board = () => {
 
   const [leaders, setLeaders] = useState(LeadersData);
   leaders.sort((a, b) => b.score - a.score);
-  const states = ['Delhi', 'Haryana','Uttar Pradesh','Rajasthan','Gujrat','Andhra Pradesh'];
+  const states = ['Overall', 'Delhi', 'Haryana','Uttar Pradesh','Rajasthan','Gujrat','Andhra Pradesh'];
   const [stateLeaders, setstateLeaders] = useState({});
   const [searchName, setSearchName] = useState('');
 
   const handleFilterBystate = (state) => {
-    const filtered = leaders.filter((leader) => leader.state === state)
+    if(state === "Overall") handleResetFilter();
+    else{const filtered = leaders.filter((leader) => leader.state === state)
       .sort((a, b) => b.score - a.score);
-    setstateLeaders({ [state]: filtered });
+    setstateLeaders({ [state]: filtered });}
   };
 
   const handleResetFilter = () => {
@@ -45,7 +46,7 @@ const Board = () => {
 
         <div className="d-flex justify-content-between mb-1 w-96 m-auto">
         <div>
-          <button className=" text-dark mx-3 mb-3 btns" onClick={handleResetFilter} style={{backgroundColor:"aquamarine"}}>Overall</button>
+          {/* <button className="text-dark mx-3 mb-3 btns" onClick={handleResetFilter} style={{backgroundColor:"aquamarine"}}>Overall</button> */}
           {states.map((state) => (
             <button key={state} className=" btn-secondary btns mx-3 mb-3" onClick={() => handleFilterBystate(state)}>{state}</button>
           ))}
@@ -61,7 +62,7 @@ const Board = () => {
           </form></div>
       <table className="table table-borderless mt-3" style={{width:"94.5%"}}>
         <thead>
-          <tr>
+          <tr style={{color:"white"}}>
             <th> <h4>Rank</h4></th>
             <th><h4>Name</h4> </th>
             <th><h4>Score</h4> </th>
@@ -72,7 +73,7 @@ const Board = () => {
             Object.entries(stateLeaders).map(([state, leaders]) => (
               leaders.map((leader, index) => (
                 <tr key={index} className="trow" style={{ marginBottom: '10px !important' }}>
-                  <td>{index + 1}{getIcon(index)}</td>
+                  <td>{index + 1}<span style={{marginLeft : "5%"}}>{getIcon(index)}</span></td>
                   <td className="p-3">{leader.name}</td>
                   {/* <td className="p-3">{'⭐️'.repeat(leader.stars)}{'★'.repeat(5-leader.stars)}</td> */}
                   <td className="p-3 ">{leader.score}</td>
@@ -82,7 +83,7 @@ const Board = () => {
           ) : (
             leaders.map((leader, index) => (
               <tr key={index} className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>{index + 1}{getIcon(index)}</td>
+                <td>{index + 1} <span style={{marginLeft : "5%"}}>{getIcon(index)}</span></td>
                 <td className="p-3">{leader.name}</td>
                 {/* <td className="p-3">{'⭐️'.repeat(getStars(index))}{'★'.repeat(5-getStars(index))}</td> */}
                 <td className="p-3 ">{leader.score}</td>

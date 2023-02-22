@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import Home from '../src/components/Home/home'
 import KaizenForm from "./components/Kaizen Form/KaizenForm";
+import LeaderBoard from "./components/leaderboard/LeaderBoard";
 import Navbar from "./components/Kaizen Form/navbar";
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -19,10 +20,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={
-            <Home />
-          } />
+          <Route path="/" element={<Home />} />
           <Route path="/form" element={<><Navbar id="home" /><KaizenForm /></>} />
+          <Route path="/leaderboard" element={<><Navbar id="home" /><LeaderBoard /></>} />
         </Routes>
       </Router>
     </>

@@ -30,6 +30,15 @@ export default function Navbar({id}){
     let path = `/`; 
     navigate(path);
   }
+  const Leaderboard = () =>{ 
+    let path = `/leaderboard`; 
+    navigate(path);
+  }
+
+  const form = () =>{ 
+    let path = `/form`; 
+    navigate(path);
+  }
 
   const Home = async (to) => {
     await home();    
@@ -79,11 +88,15 @@ export default function Navbar({id}){
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
+                        <a class="nav-link" onClick={()=>Leaderboard()}>Leaderboard</a>
+                      </li>
+
+                      <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link" onClick={()=>Home('contact')}>Contact</a>
                       </li> 
 
                       <li class="nav-item mx-2">
-                        <button class="applybtn mt-0">Register</button>  
+                        <button class="applybtn mt-0"  onClick={form}>Register</button>  
 
                       </li>                                 
                   </ul>

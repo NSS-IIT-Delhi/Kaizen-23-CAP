@@ -39,7 +39,10 @@ export default function Home(){
     navigate(path);
   }
 
-
+  const Leaderboard = () =>{ 
+    let path = `/leaderboard`; 
+    navigate(path);
+  }
 
   return (
     <div>
@@ -88,6 +91,10 @@ export default function Home(){
                           <Link activeClass="nav-link-active" to="roles" spy={true} offset={-70} duration={500}>
                             Roles
                           </Link></a>
+                      </li>
+
+                      <li class="nav-item mx-2 hover-underline-animation">
+                        <a class="nav-link" onClick={()=>Leaderboard()}>Leaderboard</a>
                       </li>
 
                       <li class="nav-item mx-2 hover-underline-animation">
