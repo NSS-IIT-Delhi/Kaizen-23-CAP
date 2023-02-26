@@ -1,12 +1,13 @@
 import React from "react";
 
 const LeadersData = [
-  { name: "Bob", score: 0, state: "Gujrat" },
-  { name: "Eve", score: 0, state: "Rajasthan" },
-  { name: "Jain", score: 0, state: "Haryana" },
-  { name: "Jain", score: 0, state: "Andhra Pradesh" },
-  { name: "Jane", score: 0, state: "Delhi" },
-  { name: "John", score: 0, state: "Uttar Pradesh" },
-  { name: "Peter", score: 0, state: "Punjab" },
+  { rank:1,name: "Bob",referrel:"KCA001", score: 1300, state: "Gujrat" },
+  { rank:2,name: "Eve",referrel:"KCA002", score: 700, state: "Rajasthan" },
+  { rank:3,name: "Jain", referrel:"KCA003",score: 500, state: "Haryana" },
+  { rank:4,name: "Jimmy", referrel:"KCA201",score: 480, state: "Haryana" },
+  { rank:5,name: "Jain",referrel:"KCA204", score: 450, state: "Andhra Pradesh" },
+  { rank:6,name: "Jane",referrel:"KCA305", score: 300, state: "Delhi" },
+  { rank:7,name: "John", referrel:"KCA390",score: 200, state: "Uttar Pradesh" },
+  { rank:8,name: "Peter", referrel:"KCA009",score: 50, state: "Punjab" },
 ];
 export default LeadersData;
