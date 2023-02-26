@@ -25,12 +25,12 @@ const Board = () => {
   };
 
 
-  // const handleSearch = (e) => {
-  //   e.preventDefault();
-  //   const filtered = overallData.filter((leader) => leader.referrel.toLowerCase().includes(searchName.toLowerCase()));
-  //   setSearchName("")
-  //   setLeadersData(filtered)
-  // };
+  const handleSearch = (e) => {
+    e.preventDefault();
+    const filtered = overallData.filter((leader) => leader.referrel.toLowerCase().includes(searchName.toLowerCase()));
+    setSearchName("")
+    setLeadersData(filtered)
+  };
   return (
     <div className="container">
       <h1 className='text-center mt-4' style={{fontFamily : "Meriweather"}}>LeaderBoard</h1>
@@ -51,8 +51,8 @@ const Board = () => {
           <div className="update">
            <p>Last Updated on: 26st February</p> 
           </div>          
-          <form >
-          {/* <form onSubmit={handleSearch} > */}
+          {/* <form > */}
+          <form onSubmit={handleSearch} >
             <input type="text" placeholder="Search by Referrel" value={searchName} onChange={(e) => setSearchName(e.target.value)} className="form-control search  mr-1" />
           </form></div>
       <table className="table table-borderless mt-3" style={{width:"94.5%"}}>
@@ -66,7 +66,7 @@ const Board = () => {
         </thead>
         <tbody>
           {
-            leadersData.leaders.map((leader) => (
+            leadersData.map((leader) => (
               <tr key={leader.rank} className="trow" style={{ marginBottom: '10px !important' }}>
                 <td>{getIcon(leader.rank)}<span style={{marginLeft : "5%"}}>{leader.rank}</span></td>
                 <td className="p-3">{leader.referrel}</td>

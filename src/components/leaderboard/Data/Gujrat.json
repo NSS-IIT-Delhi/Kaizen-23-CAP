@@ -1,5 +1,3 @@
-{
-    "leaders":[
+[
         { "rank":1,"name": "Bob","referrel":"KCA001", "score": 1300, "state": "Gujrat" }
     ]
-}
