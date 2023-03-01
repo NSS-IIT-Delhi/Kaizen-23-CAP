@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.Card {
+	backdrop-filter: blur(50px);
+	background-color: hsla(0,0%,100%,.1);
+	border-left: 1px solid hsla(0,0%,100%,.5);
+	border-radius: 15px;
+	border-top: 1px solid hsla(0,0%,100%,.5);
+	box-shadow: 20px 20px 50px rgba(0,0,0,.5);
+	width: 300px;
+	height: 300px;
+  }
+
+
+body{
+    background: #152238;
+  overflow-x: hidden;
+}
+
+
+
+.head {
+	color: white;
+	text-align: center;
+	position:relative;
+	width: 100%;
+	z-index: 8;
+	font-family: 'IBM Plex Sans Condensed';
+	font-size: 10vw;
+	font-weight: 900;
+    padding-top: 2rem;
+  }
+.Title {
+    text-align: center;
+	width: 100%;
+	z-index: 8;
+	font-family: 'IBM Plex Sans Condensed';
+	font-size: 50px;
+	font-weight: 900;
+	mix-blend-mode: difference;	
+	color: #7FFFD4;
+    letter-spacing: 15px;
+    word-wrap: break-word;
+  }
+
+
+  @keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 30;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 12s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 52%;
+    width: 191px;
+    height: 191px;
+    bottom: -191px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 55%;
+    width: 115px;
+    height: 115px;
+    bottom: -115px;
+    animation-delay: 4s;
+}
+.background li:nth-child(2) {
+    left: 42%;
+    width: 171px;
+    height: 171px;
+    bottom: -171px;
+    animation-delay: 2s;
+}
+.background li:nth-child(3) {
+    left: 73%;
+    width: 153px;
+    height: 153px;
+    bottom: -153px;
+    animation-delay: 9s;
+}
+.background li:nth-child(4) {
+    left: 86%;
+    width: 168px;
+    height: 168px;
+    bottom: -168px;
+    animation-delay: 7s;
+}
+.background li:nth-child(5) {
+    left: 19%;
+    width: 131px;
+    height: 131px;
+    bottom: -131px;
+    animation-delay: 6s;
+}
+.background li:nth-child(6) {
+    left: 82%;
+    width: 100px;
+    height: 100px;
+    bottom: -100px;
+    animation-delay: 4s;
+}
+.background li:nth-child(7) {
+    left: 48%;
+    width: 134px;
+    height: 134px;
+    bottom: -134px;
+    animation-delay: 15s;
+}
+.background li:nth-child(8) {
+    left: 4%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 3s;
+}
+.background li:nth-child(9) {
+    left: 3%;
+    width: 149px;
+    height: 149px;
+    bottom: -149px;
+    animation-delay: 10s;
+}
+
+
+
+
+
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext');
+
+
+
+
+
+.section-header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.section-header p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: white;
+}
+.gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+.team .member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    /* background: #fff; */
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+    z-index: 100000;
+}
+.team .member .member-info {
+    padding: 10px 15px 20px 15px;
+    color: black;
+}
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:black;
+}
+.new{margin: auto;
+width: 100%;
+text-align: center;
+justify-content: center;
+align-items: center;
+}

@@ -41,6 +41,7 @@ const Footer = () => {
         IIT Kanpur</h3> */}
         <a href='#' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
       </div>
+      <a href=""><p className='pt-3 team'>Developed by Tech Team of Kaizen IIT Delhi</p></a> 
     </footer>
   )
 }

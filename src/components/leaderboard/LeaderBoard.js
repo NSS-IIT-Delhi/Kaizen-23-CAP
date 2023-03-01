@@ -28,8 +28,8 @@ const Board = () => {
   const handleSearch = (e) => {
     e.preventDefault();
     const filtered = overallData.filter((leader) => leader.referrel.toLowerCase().includes(searchName.toLowerCase()));
-    setSearchName("")
     setLeadersData(filtered)
+    setSearchName("")
   };
   return (
     <div className="container">

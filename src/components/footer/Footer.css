@@ -50,3 +50,10 @@ footer i {
     opacity: .9;
     text-decoration: underline;
 }
+.team{
+    font-size: .8rem;
+    cursor: pointer;
+}
+.team:hover{
+    color: aquamarine;
+}
