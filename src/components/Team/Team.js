@@ -8,10 +8,10 @@ export default function Event() {
   const { id } = useParams();
   return (
     <>
-         <h2 class="Title pt-4">Kaizen Techical Team</h2>
+         <h2 className="Title pt-4">Kaizen Techical Team</h2>
          <hr className="hrx"/>
 
-      <ul class="background">
+      <ul className="background">
         <li></li>
         <li></li>
         <li></li>
@@ -24,155 +24,162 @@ export default function Event() {
         <li></li>
       </ul>
       <div className="container mt-5">
-      <header class="section-header mt-5">
+      <header className="section-header mt-5">
         <p className="pt-4">Coordinators</p>
       </header>
-      <div class="row gy-4 new">
+      <div className="row gy-4 new">
         <div
-          class="col-lg-3 col-md-5 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate "
+          className="col-lg-3 col-md-5 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate "
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
               src="/adminerp.svg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
+            <div className="member-info">
+              <h4 className="text-dark" style={{fontSize:"1.4rem"}}>
                 Nitesh Saini{" "}
-              </h4>
-            </div>
+             
+              <a href="https://www.linkedin.com/in/nitesh-saini-80893b1a0/" target="_blank" rel="noopener noreferrer" className="text-dark"><i className="fa-brands fa-linkedin"></i></a>
+              </h4>   </div>
           </div>
         </div>
 
         <div
-          class="col-lg-3 col-md-5 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          className="col-lg-3 col-md-5 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
               src="/adminerp.svg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
-                Harshal{" "}
-                </h4>
+            <div className="member-info">
+              <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
+                Harshal Holkar{" "}
+                <a href="https://www.linkedin.com/in/holkar-harshal/" target="_blank" rel="noopener noreferrer" className="text-dark"><i className="fa-brands fa-linkedin"></i></a>
+              </h4> 
             </div>
           </div>
         </div>        </div>
-        <header class="section-header mt-5">
+        <header className="section-header mt-5">
         <p>Executives</p>
       </header>
-      <div class="row gy-4 new mb-4">
+      <div className="row gy-4 new mb-4">
         <div
-          class="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          className="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
               src="/Team Members/Urmila.jpg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{ width:"200px", height: "200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
+            <div className="member-info">
+              <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
                 Urmila Sharma{" "}
-              </h4>
+                <a href="https://www.linkedin.com/in/urmila-sharma-515a21214/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+              </h4> 
             </div>
           </div>
         </div>
         <div
-          class="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          className="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
               src="/adminerp.svg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
+            <div className="member-info">
+              <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
                 Raghav{" "}
 
-              </h4>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+              </h4> 
 
             </div>
           </div>
         </div>
         <div
-          class="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          className="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }} >
             <img
               src="/adminerp.svg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
-                Abhijeet Gautam{" "}
+            <div className="member-info">
+              <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
+                Abhijeet {" "}
 
-              </h4>
+                <a href="https://www.linkedin.com/in/abhijeet-gautam-a413b1211/" target="_blank" rel="noopener noreferrer" ><i className="fa-brands fa-linkedin"></i></a>
+              </h4> 
             </div>
           </div>
         </div>
         <div
-          class="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          className="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
               src="/adminerp.svg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
+            <div className="member-info">
+              <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
                 Arush Bansal{" "}
-              </h4>
+                <a href="https://www.linkedin.com/in/arush-bansal-a108b7223/" target="_blank" rel="noopener noreferrer" ><i className="fa-brands fa-linkedin"></i></a>
+              </h4> 
             </div>
           </div>
         </div>
         <div
-          class="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          className="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <div class="member" style={{ backgroundColor: "#e6e6e6" }}>
+          <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
               src="/adminerp.svg"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
             />
 
-            <div class="member-info">
-              <h4 className="text-dark">
+            <div className="member-info">
+              <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
                 Anish Banerjee{" "}
-              </h4>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+              </h4> 
             </div>
           </div>
         </div>
