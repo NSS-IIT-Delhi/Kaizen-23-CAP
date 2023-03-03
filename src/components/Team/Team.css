@@ -1,47 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.Card {
-	backdrop-filter: blur(50px);
-	background-color: hsla(0,0%,100%,.1);
-	border-left: 1px solid hsla(0,0%,100%,.5);
-	border-radius: 15px;
-	border-top: 1px solid hsla(0,0%,100%,.5);
-	box-shadow: 20px 20px 50px rgba(0,0,0,.5);
-	width: 300px;
-	height: 300px;
-  }
-
-
 body{
     background: #152238;
   overflow-x: hidden;
 }
 
-
-
-.head {
-	color: white;
-	text-align: center;
-	position:relative;
-	width: 100%;
-	z-index: 8;
-	font-family: 'IBM Plex Sans Condensed';
-	font-size: 10vw;
-	font-weight: 900;
-    padding-top: 2rem;
-  }
 .Title {
     text-align: center;
 	width: 100%;
 	z-index: 8;
-	font-family: 'IBM Plex Sans Condensed';
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 50px;
 	font-weight: 900;
-	mix-blend-mode: difference;	
+	/* mix-blend-mode: difference;	 */
 	color: #7FFFD4;
-    letter-spacing: 15px;
-    word-wrap: break-word;
+    letter-spacing: 10px;
+    /* word-wrap: break-word; */
   }
 
 
@@ -77,9 +52,6 @@ body{
     background: rgba(255, 255, 255, 0.2);
     animation: animate 12s linear infinite;
 }
-
-
-
 
 .background li:nth-child(0) {
     left: 52%;
@@ -153,20 +125,12 @@ body{
 }
 
 
-
-
-
-
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext');
 
-
-
-
-
 .section-header {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 .section-header p {
     margin: 10px 0 0 0;
@@ -174,23 +138,22 @@ body{
     font-size: 38px;
     line-height: 42px;
     font-weight: 700;
-    color: white;
+    color: #b6ffc5;
 }
-.gy-4 {
+/* .gy-4 {
     --bs-gutter-y: 1.5rem;
-}
+} */
 .team .member {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
-    /* background: #fff; */
-    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
-    transition: 0.3s;
     z-index: 100000;
+    transition: all ease-in-out 0.3s;
 }
 .team .member .member-info {
-    padding: 10px 15px 20px 15px;
+    /* padding: 10px 15px 20px 15px; */
     color: black;
+    text-align: center;
 }
 .team .member .member-info h4 {
     font-weight: 700;
@@ -198,9 +161,36 @@ body{
     font-size: 20px;
     color:black;
 }
-.new{margin: auto;
+.new{
+    margin: auto;
 width: 100%;
 text-align: center;
 justify-content: center;
-align-items: center;
+/* align-items: center; */
 }
+.member:hover{
+    transform: translateY(-2.5px);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+.hrx{
+    width: 27rem;
+}
+.aos-animate, body[data-aos-delay="100"] [data-aos].aos-animate {
+    transition-delay: .3s;
+    }
+    [data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+    }
+    [data-aos][data-aos][data-aos-delay="100"], body[data-aos-delay="100"] [data-aos] {
+    transition-delay: 0;
+    }
+[data-aos][data-aos][data-aos-easing=ease-in-out], body[data-aos-easing=ease-in-out] [data-aos] {
+    transition-timing-function: ease-in-out;
+    }
+    [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
+    transition-duration: 1s;
+    }
+[data-aos=fade-up] {
+    transform: translate3d(0,100px,0);
+    }

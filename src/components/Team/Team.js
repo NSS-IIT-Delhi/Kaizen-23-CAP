@@ -8,7 +8,8 @@ export default function Event() {
   const { id } = useParams();
   return (
     <>
-         <h2 class="Title pt-3">Kaizen Tech Team</h2>
+         <h2 class="Title pt-4">Kaizen Techical Team</h2>
+         <hr className="hrx"/>
 
       <ul class="background">
         <li></li>
@@ -22,13 +23,13 @@ export default function Event() {
         <li></li>
         <li></li>
       </ul>
-      <div className="container">
+      <div className="container mt-5">
       <header class="section-header mt-5">
-        <p>Coordinators</p>
+        <p className="pt-4">Coordinators</p>
       </header>
       <div class="row gy-4 new">
         <div
-          class="col-lg-3 col-md-5 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
+          class="col-lg-3 col-md-5 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate "
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -71,7 +72,7 @@ export default function Event() {
         <header class="section-header mt-5">
         <p>Executives</p>
       </header>
-      <div class="row gy-4 new">
+      <div class="row gy-4 new mb-4">
         <div
           class="col-lg-3 col-md-4 col-sm-6 col-xs-10 d-flex align-items-stretch aos-init aos-animate"
           data-aos="fade-up"

@@ -1,6 +1,12 @@
 import React from 'react'
 import './Footer.css'
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
+  let navigate = useNavigate(); 
+  const team = () =>{ 
+    let path = `/team`; 
+    navigate(path);
+  }
   return (
 <footer className="text-center">
       <div className="row" style={{fontFamily: 'Merriweather'}}>
@@ -37,11 +43,9 @@ const Footer = () => {
       </div>
       <br/>
       <div className="row WebLink" style={{fontFamily: 'Merriweather'}}>
-        {/* <h3 style={{textTransform: "unset"}}>With Love from E-Cell,<br className="display-sm"/>
-        IIT Kanpur</h3> */}
-        <a href='#' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
+        <a href='https://kaizen-23.netlify.app' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
       </div>
-      <a href=""><p className='pt-3 team'>Developed by Tech Team of Kaizen IIT Delhi</p></a> 
+      <p className='pt-3 team' onClick={team}>Developed by Kaizen Tech Team</p>
     </footer>
   )
 }
