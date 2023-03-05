@@ -113,34 +113,34 @@ export default class KaizenForm extends React.Component {
             option_str.options[option_str.length] = new Option(city_arr[i], city_arr[i]);
         }
     }
-    componentDidMount() {
-        this.print_state('sts');
+    // componentDidMount() {
+    //     this.print_state('sts');
 
-        window.addEventListener("load", function () {
-            const form = document.getElementById('my-form');
-            form.addEventListener("submit", function (e) {
-                e.preventDefault();
-                const data = new FormData(form);
-                const action = e.target.action;
-                fetch(action, {
-                    method: 'POST',
-                    body: data,
-                })
-                    .then(() => {
-                        document.getElementById("bod").innerHTML = "<h4>Thank you for your time. Your response has been submitted.</h4>";
-                    })
-            });
-        });
+    //     window.addEventListener("load", function () {
+    //         const form = document.getElementById('my-form');
+    //         form.addEventListener("submit", function (e) {
+    //             e.preventDefault();
+    //             const data = new FormData(form);
+    //             const action = e.target.action;
+    //             fetch(action, {
+    //                 method: 'POST',
+    //                 body: data,
+    //             })
+    //                 .then(() => {
+    //                     document.getElementById("bod").innerHTML = "<h4>Thank you for your time. Your response has been submitted.</h4>";
+    //                 })
+    //         });
+    //     });
 
-    }
+    // }
     render() {
         return (
             <>                <section className="wrapper" id="formSec">
                 <div className="formDiv">
                     <h2 className="subtitle" data-aos="fade-up">
-                        CAP Registration Form
+                        CAP Registration is Closed
                     </h2>
-                    <div className="content" id="bod">
+                    {/* <div className="content" id="bod">
                         <form
                             className="gform"
                             method="POST"
@@ -3770,10 +3770,19 @@ export default class KaizenForm extends React.Component {
                                 <br />
                                 <br />
                                 <br />
-                            </div>
+                            </div> 
+                            <fieldset style={{ placeItems: "center" }}>
+                                    <input
+                                        className="formSub"
+                                        type="Submit"
+                                        defaultValue="Registeration is Closed"
+                                        id="sub"
+                                        diasbled
+                                    />
+                            </fieldset>
                         </form>
 
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
