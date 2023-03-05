@@ -35,7 +35,7 @@ export default function Event() {
         >
           <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
-              src="/adminerp.svg"
+              src="/Team Members/Nitesh_Saini.jpg"
               className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
