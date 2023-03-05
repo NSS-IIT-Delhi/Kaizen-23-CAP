@@ -2,21 +2,19 @@
 
 #formSec {
     display: grid;
-    height: auto;
-    padding: 6rem 2rem 2rem;
+    height: 50vh;
+    padding-top: 0px;
     background-color: #28282b;
     color:whitesmoke;
     font-family: 'Merriweather', serif;
-
+    place-items: center;
 }
 
-.formDiv {
+/* .formDiv {
     display: grid;
     place-items: center;
-    /* max-width: 768px; */
-    /* font-size: medium; */
     margin: auto;
-}
+} */
 
 select,
 input {
@@ -31,10 +29,6 @@ input {
     /* size: 10px; */
 }
 
-option{
-    color:white;
-    background-color: black;
-}
 
 fieldset {
     border:0px;
