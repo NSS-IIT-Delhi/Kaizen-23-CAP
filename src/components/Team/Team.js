@@ -72,7 +72,7 @@ export default function Event() {
           </div>
         </div>        </div>
         <header className="section-header mt-5">
-        <p>Executives</p>
+        <p>Activity Heads</p>
       </header>
       <div className="row gy-4 new mb-4">
         <div
@@ -126,7 +126,7 @@ export default function Event() {
         >
           <div className="member" style={{ backgroundColor: "#e6e6e6" }} >
             <img
-              src="/adminerp.svg"
+              src="/Team Members/Abhijeet.jpg"
               className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
