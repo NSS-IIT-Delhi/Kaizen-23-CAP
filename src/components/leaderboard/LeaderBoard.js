@@ -1,11 +1,12 @@
 import React, { useState, } from 'react';
 import './Board.css'
-import overallData from './Data/Overall.json'
-import delhiData from './Data/Delhi.json'
-import haryanaData from './Data/Haryana.json'
-import rajasthanData from './Data/Rajasthan.json'
-import UPData from './Data/UP.json'
-import gujratData from './Data/Gujrat.json'
+import overallData from './Data/overall.json'
+import OneData from './Data/group1.json'
+import TwoData from './Data/group2.json'
+import ThreeData from './Data/group3.json'
+import FourData from './Data/group4.json'
+import FiveData from './Data/group5.json'
+import SixData from './Data/group6.json'
 
 const Board = () => {
   const [leadersData, setLeadersData] = useState(overallData);
@@ -27,7 +28,7 @@ const Board = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    const filtered = overallData.filter((leader) => leader.referrel.toLowerCase().includes(searchName.toLowerCase()));
+    const filtered = overallData.filter((leader) => leader.ReferralCode.toLowerCase().includes(searchName.toLowerCase()));
     setLeadersData(filtered)
     setSearchName("")
   };
@@ -39,12 +40,12 @@ const Board = () => {
         <div className="d-flex justify-content-between mb-1 w-96 m-auto">
         <div className=''>
           <button className="text-dark mx-3 btns mb-3" onClick={() => setLeadersData(overallData)} style={{backgroundColor:"aquamarine"}}>Overall</button>
-            <button key={delhiData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(delhiData)}>Group 1</button>
-            <button key={haryanaData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(haryanaData)}>Group 2</button>
-            <button key={rajasthanData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(rajasthanData)}>Group 3</button>
-            <button key={UPData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(UPData)}>Group 4</button>
-            <button key={gujratData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(gujratData)}>Group 5</button>
-            <button key={gujratData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(gujratData)}>Group 6</button>
+            <button key={OneData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(OneData)}>Group 1</button>
+            <button key={TwoData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(TwoData)}>Group 2</button>
+            <button key={ThreeData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(ThreeData)}>Group 3</button>
+            <button key={FourData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(FourData)}>Group 4</button>
+            <button key={FiveData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(FiveData)}>Group 5</button>
+            <button key={SixData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(SixData)}>Group 6</button>
         </div>
 
       </div>
@@ -68,11 +69,11 @@ const Board = () => {
         <tbody>
           {
             leadersData.map((leader) => (
-              <tr key={leader.rank} className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>{getIcon(leader.rank)}<span style={{marginLeft : "5%"}}>{leader.rank}</span></td>
-                <td className="p-3">{leader.referrel}</td>
-                <td className="p-3">{leader.name}</td>
-                <td className="p-3 ">{leader.score}</td>
+              <tr key={leader.Rank} className="trow" style={{ marginBottom: '10px !important' }}>
+                <td>{getIcon(leader.Rank)}<span style={{marginLeft : "5%"}}>{leader.Rank}</span></td>
+                <td className="p-3">{leader.ReferralCode}</td>
+                <td className="p-3">{leader.Name}</td>
+                <td className="p-3 ">{leader.Score}</td>
               </tr>
             ))
           }
@@ -91,7 +92,7 @@ export default Board;
 
 //   const [leaders, setLeaders] = useState(LeadersData);
 //   // leaders.sort((a, b) => b.score - a.score);
-//   const states = ['Overall', 'Delhi', 'Haryana','Uttar Pradesh','Rajasthan','Gujrat'];
+//   const states = ['Overall', 'One', 'Two','Uttar Pradesh','Three','Five'];
 //   const [stateLeaders, setstateLeaders] = useState({});
 //   const [searchName, setSearchName] = useState('');
 
