@@ -93,9 +93,9 @@ export default function Home(){
                           </Link></a>
                       </li>
 
-                      {/* <li class="nav-item mx-2 hover-underline-animation">
+                       <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link" onClick={()=>Leaderboard()}>Leaderboard</a>
-                      </li> */}
+                      </li> 
 
                       <li class="nav-item mx-2 hover-underline-animation">
                         <a class="nav-link">
