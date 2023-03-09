@@ -1,6 +1,6 @@
 import React, { useState, } from 'react';
 import './Board.css'
-import overallData from './Data/overall.json'
+import overallData from './Data/Overall.json'
 import OneData from './Data/group1.json'
 import TwoData from './Data/group2.json'
 import ThreeData from './Data/group3.json'
@@ -51,7 +51,7 @@ const Board = () => {
       </div>
       <div className="d-flex justify-content-between mb-1">
           <div className="update">
-           <p>Last Updated on: 26st February</p> 
+           <p>Last Updated on: (9th March)</p> 
           </div>          
           {/* <form > */}
           <form onSubmit={handleSearch} >
