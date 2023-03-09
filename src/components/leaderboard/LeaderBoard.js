@@ -39,11 +39,12 @@ const Board = () => {
         <div className="d-flex justify-content-between mb-1 w-96 m-auto">
         <div className=''>
           <button className="text-dark mx-3 btns mb-3" onClick={() => setLeadersData(overallData)} style={{backgroundColor:"aquamarine"}}>Overall</button>
-            <button key={delhiData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(delhiData)}>Delhi</button>
-            <button key={haryanaData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(haryanaData)}>Haryana</button>
-            <button key={rajasthanData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(rajasthanData)}>Rajasthan</button>
-            <button key={UPData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(UPData)}>Uttar Pradesh</button>
-            <button key={gujratData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(gujratData)}>Gujrat</button>
+            <button key={delhiData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(delhiData)}>Group 1</button>
+            <button key={haryanaData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(haryanaData)}>Group 2</button>
+            <button key={rajasthanData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(rajasthanData)}>Group 3</button>
+            <button key={UPData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(UPData)}>Group 4</button>
+            <button key={gujratData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(gujratData)}>Group 5</button>
+            <button key={gujratData.state} className=" btn-secondary btns mx-3 mb-3" onClick={() => setLeadersData(gujratData)}>Group 6</button>
         </div>
 
       </div>
