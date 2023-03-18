@@ -50,8 +50,8 @@ export default function Home(){
         <header class="header sticky-top animate__animated animate__fadeInDown animate__delay-1s" style={{"--animate-delay": "0.7s",  "background-color": `rgb(0,0,0,${scrolled ? 0.5 : 0})`}}>
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
-              <a class="navbar-brand px-4"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
-              <a class="ham-link float-left">Kaizen'23</a>
+              <a class="navbar-brand px-4" href="https://kaizeniitd.org"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
+              <a class="ham-link float-left" href="https://kaizeniitd.org">Kaizen'23</a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <div class="menubar">

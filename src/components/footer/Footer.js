@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="row" style={{fontFamily: 'Merriweather'}}>
         <h3 style={{textTransform: "unset",fontSize:"17px"}}>IIT Delhi, Hauz Khas Delhi, India 110016</h3>
       </div>
-      <br/>
+      {/* <br/>
       <div className="row">
         <h4 style={{color: "#ffbe55"}}>
           <a target="_blank " href="mailto:outreach.kaizen.iitd@gmail.com">
@@ -41,9 +41,9 @@ const Footer = () => {
           </a>
         </h4>
       </div>
-      <br/>
+      <br/> */}
       <div className="row WebLink" style={{fontFamily: 'Merriweather'}}>
-        <a href='https://kaizen-23.netlify.app' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
+        <a href='https://kaizeniitd.org' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
       </div>
       <p className='pt-3 team' onClick={team}>Developed by Kaizen Tech Team</p>
     </footer>
