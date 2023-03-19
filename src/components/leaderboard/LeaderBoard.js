@@ -51,7 +51,7 @@ const Board = () => {
       </div>
       <div className="d-flex justify-content-between mb-1">
           <div className="update">
-           <p>Last Updated on: 9th March</p> 
+           <p>Last Updated on: 19th March 2023</p> 
           </div>          
           {/* <form > */}
           <form onSubmit={handleSearch} >
