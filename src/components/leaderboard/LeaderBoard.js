@@ -51,17 +51,17 @@ const Board = () => {
       </div>
       <div className="d-flex justify-content-between mb-1">
           <div className="update">
-           <p>Last Updated on: 29th March 2023</p> 
+           <p>Last Updated on: 30th March 2023</p> 
           </div>          
           {/* <form > */}
           <form onSubmit={handleSearch} >
-            <input type="text" placeholder="Search by Referrel" value={searchName} onChange={(e) => setSearchName(e.target.value)} className="form-control search  mr-1" />
+            <input type="text" placeholder="Search by Referral" value={searchName} onChange={(e) => setSearchName(e.target.value)} className="form-control search  mr-1" />
           </form></div>
       <table className="table table-borderless mt-3" style={{width:"94.5%"}}>
         <thead>
           <tr style={{color:"white"}}>
             <th> <h4>Rank</h4></th>
-            <th> <h4>Referrel Code</h4></th>
+            <th> <h4>Referral Code</h4></th>
             <th><h4>Name</h4> </th>
             <th><h4>Score</h4> </th>
           </tr>
@@ -122,7 +122,7 @@ export default Board;
 
 //   const handleSearch = (e) => {
 //     e.preventDefault();
-//     const filtered = leaders.filter((leader) => leader.referrel.toLowerCase().includes(searchName.toLowerCase()));
+//     const filtered = leaders.filter((leader) => leader.Referral.toLowerCase().includes(searchName.toLowerCase()));
 //     setstateLeaders({ searched: filtered });
 //     setSearchName("")
 //   };
@@ -151,7 +151,7 @@ export default Board;
 //         <thead>
 //           <tr style={{color:"white"}}>
 //             <th> <h4>Rank</h4></th>
-//             <th> <h4>Referrel Code</h4></th>
+//             <th> <h4>Referral Code</h4></th>
 //             <th><h4>Name</h4> </th>
 //             <th><h4>Score</h4> </th>
 //           </tr>
@@ -162,7 +162,7 @@ export default Board;
 //               leaders.map((leader, index) => (
 //                 <tr key={index} className="trow" style={{ marginBottom: '10px !important' }}>
 //                 <td>{getIcon(index)}<span style={{marginLeft : "5%"}}>{leader.rank}</span></td>
-//                   <td className="p-3">{leader.referrel}</td>
+//                   <td className="p-3">{leader.Referral}</td>
 //                   <td className="p-3">{leader.name}</td>
 //                   {/* <td className="p-3">{'⭐️'.repeat(leader.stars)}{'★'.repeat(5-leader.stars)}</td> */}
 //                   <td className="p-3 ">{leader.score}</td>
@@ -173,7 +173,7 @@ export default Board;
 //             leaders.map((leader, index) => (
 //               <tr key={index} className="trow" style={{ marginBottom: '10px !important' }}>
 //                 <td>{getIcon(index)}<span style={{marginLeft : "5%"}}>{leader.rank}</span></td>
-//                 <td className="p-3">{leader.referrel}</td>
+//                 <td className="p-3">{leader.Referral}</td>
 //                 <td className="p-3">{leader.name}</td>
 //                 {/* <td className="p-3">{'⭐️'.repeat(getStars(index))}{'★'.repeat(5-getStars(index))}</td> */}
 //                 <td className="p-3 ">{leader.score}</td>
