@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+    font-family: arial;
+}
+table{
+    text-align: center;
+    width: 97%;
+margin: auto;
+}
+table .trow:nth-child(even){
+    background-color: aquamarine;
+    /* background-color: rgba(6, 12, 38, 0.8); */
+    text-align: center;
+    font-size: 20px;
+}
+table .trow:nth-child(odd){
+    background-color: rgba(128, 255, 212, 0.90);
+    /* background-color: rgba(6, 12, 38, 0.8); */
+    text-align: center;
+    font-size: 20px;
+}
+h1{
+    color: #7fffd4;
+    font-size: 40px;
+font-weight: 500
+}
+table td{
+    /* color: aquamarine; */
+    color: black;
+    border: none;
+}
+h4{
+    font-weight: 900;
+}
+
+.update{
+    font-weight: 100;
+    font-size: .8rem;
+    padding-left: 38px;
+    /* margin-top: 1rem; */
+}
+
+.search{
+/* width: 12rem; */
+border: none;
+width: 11rem;
+
+}
+.btns{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    border-radius: .375rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #6c757d;
+    border: none;
+}
+.btns:hover{
+    background-color:rgba(128, 255, 212, 0.75);
+    color: black;
+}
+.btns:active {
+    background-color: aquamarine;
+  }
+.btns:focus {
+    background-color: aquamarine;
+  }
+.btns:visited {
+    background-color: aquamarine;
+  }
+button:active{
+    background-color: aquamarine;
+} 
+button:focus{
+    background-color: aquamarine;
+} 
+button:visited{
+    background-color: aquamarine;
+} 
+.mr-1{
+    margin-right: 2rem;
+}
+.w-96{
+    width: 96%;
+}
+hr{
+    background: linear-gradient(90deg,#99faad,#fdfbf9);
+border: none;
+border-radius: 50px;
+height: .3rem;
+margin-bottom: 3rem;
+margin-left: auto;
+margin-right: auto;
+width: 13rem;
+}
