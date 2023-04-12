@@ -82,55 +82,56 @@ const Winners = () => {
             <input type="text" placeholder="Search by Referral" value={searchName} onChange={(e) => setSearchName(e.target.value)} className="form-control search  mr-1" />
           </form></div> */}
 
-          <center class="pt-5 pb-3"><h1>Group wise Top Performers</h1></center>
+          <center class="pt-5 pb-3"><h1>Top Performers</h1></center>
       <table className="table table-borderless mt-3" style={{width:"94.5%"}}>
-        <thead>
+        {/* <thead>
           <tr style={{color:"white"}}>
-            <th> <h4>Group</h4></th>
+            <th> <h4>Awards</h4></th>
             <th><h4>Name</h4> </th>
             <th> <h4>Referral Code</h4></th>
             <th><h4>Score</h4> </th>
           </tr>
-        </thead>
+        </thead> */}
         <tbody>
               <tr className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>1</td>
+                <td>Top Performer of Group 1</td>
                 <td className="p-3">Fahad Afaque</td>
                 <td className="p-3">KZN310042</td>
                 <td className="p-3 ">41100</td>
               </tr>
               <tr className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>2</td>
+                <td>Top Performer of Group 2</td>
                 <td className="p-3">Kriti Sharma</td>
                 <td className="p-3">KZN320162</td>
                 <td className="p-3 ">150000</td>
               </tr>
               <tr className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>3</td>
+                <td>Top Performer of Group 3</td>
                 <td className="p-3">Naman</td>
                 <td className="p-3">KZN330398</td>
                 <td className="p-3 ">60225</td>
               </tr>
               <tr className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>4</td>
+                <td>Top Performer of Group 4</td>
                 <td className="p-3">Parakh Khanchandani	</td>
                 <td className="p-3">KZN341066</td>
                 <td className="p-3 ">41000</td>
               </tr>
               <tr className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>5</td>
+                <td>Top Performer of Group 5</td>
                 <td className="p-3">Samiksha</td>
                 <td className="p-3">KZN350596</td>
                 <td className="p-3 ">84525</td>
               </tr>
               <tr className="trow" style={{ marginBottom: '10px !important' }}>
-                <td>6</td>
+                <td>Top Performer of Group 6</td>
                 <td className="p-3">Pratik Kumar</td>
                 <td className="p-3">KZN360747</td>
                 <td className="p-3 ">154950</td>
               </tr>
         </tbody>
       </table>
+      <p style={{textAlign : "center", color:"grey"}}>Note: The information regarding the Certificate of Participation, Certificate of Appreciation, Merit Certificate, Letter of Recommendations and Gift Hampers will be communicated to the top performers.</p>
     </div>
   );
 };
