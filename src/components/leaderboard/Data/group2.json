@@ -1,1196 +1,1196 @@
 [
         {
          "Rank": 1,
-         "ReferralCode": "KZN320202",
-         "Name": "PAWAN KUMAR CHOPAL",
-         "Score": 44975
+         "Name": "Kriti Sharma",
+         "ReferralCode": "KZN320162",
+         "Score": 150000
         },
         {
          "Rank": 2,
-         "ReferralCode": "KZN320162",
-         "Name": "Kriti Sharma",
-         "Score": 40000
+         "Name": "PAWAN KUMAR CHOPAL",
+         "ReferralCode": "KZN320202",
+         "Score": 68025
         },
         {
          "Rank": 3,
-         "ReferralCode": "KZN320952",
-         "Name": "Sourish Pati",
-         "Score": 16050
+         "Name": "Mohsin Akhtar",
+         "ReferralCode": "KZN320922",
+         "Score": 31200
         },
         {
          "Rank": 4,
-         "ReferralCode": "KZN320201",
-         "Name": "Akshat Garg",
-         "Score": 13025
+         "Name": "Luv Sharma",
+         "ReferralCode": "KZN320924",
+         "Score": 31200
         },
         {
          "Rank": 5,
-         "ReferralCode": "KZN320148",
-         "Name": "Mansi Varshney",
-         "Score": 11925
+         "Name": "Sourish Pati",
+         "ReferralCode": "KZN320952",
+         "Score": 29250
         },
         {
          "Rank": 6,
-         "ReferralCode": "KZN320209",
-         "Name": "M.Dhanush",
-         "Score": 10850
+         "Name": "Mansi Varshney",
+         "ReferralCode": "KZN320148",
+         "Score": 27575
         },
         {
          "Rank": 7,
-         "ReferralCode": "KZN320263",
-         "Name": "Sanjay Singh Gurjar",
-         "Score": 8500
+         "Name": "Mahima Shukla",
+         "ReferralCode": "KZN320961",
+         "Score": 27350
         },
         {
          "Rank": 8,
-         "ReferralCode": "KZN320187",
-         "Name": "Arjav Jain",
-         "Score": 8225
+         "Name": "Vidushi Kathuria",
+         "ReferralCode": "KZN320194",
+         "Score": 15825
         },
         {
          "Rank": 9,
-         "ReferralCode": "KZN320185",
-         "Name": "Shivani Jain",
-         "Score": 7950
+         "Name": "Akshat Garg",
+         "ReferralCode": "KZN320201",
+         "Score": 13025
         },
         {
          "Rank": 10,
-         "ReferralCode": "KZN320194",
-         "Name": "Vidushi Kathuria",
-         "Score": 7775
+         "Name": "Shivani Jain",
+         "ReferralCode": "KZN320185",
+         "Score": 11575
         },
         {
          "Rank": 11,
-         "ReferralCode": "KZN320224",
-         "Name": "Liton Paul",
-         "Score": 5700
+         "Name": "M.Dhanush",
+         "ReferralCode": "KZN320209",
+         "Score": 10850
         },
         {
          "Rank": 12,
-         "ReferralCode": "KZN320242",
-         "Name": "Rupjyoti saikia",
-         "Score": 5000
+         "Name": "Liton Paul",
+         "ReferralCode": "KZN320224",
+         "Score": 9800
         },
         {
          "Rank": 13,
-         "ReferralCode": "KZN320251",
-         "Name": "Tanuj Gautam",
-         "Score": 3950
+         "Name": "Sanjay Singh Gurjar",
+         "ReferralCode": "KZN320263",
+         "Score": 8500
         },
         {
          "Rank": 14,
-         "ReferralCode": "KZN320245",
-         "Name": "Shashank Kumar  Shrivastava",
-         "Score": 3775
+         "Name": "Arjav Jain",
+         "ReferralCode": "KZN320187",
+         "Score": 8225
         },
         {
          "Rank": 15,
-         "ReferralCode": "KZN320193",
-         "Name": "parv narang",
-         "Score": 2800
+         "Name": "Shashank Kumar  Shrivastava",
+         "ReferralCode": "KZN320245",
+         "Score": 6675
         },
         {
          "Rank": 16,
-         "ReferralCode": "KZN320174",
-         "Name": "Shruti Sharma",
-         "Score": 2750
+         "Name": "Tanuj Gautam",
+         "ReferralCode": "KZN320251",
+         "Score": 6225
         },
         {
          "Rank": 17,
-         "ReferralCode": "KZN320284",
-         "Name": "Prateek Sinha",
-         "Score": 2625
+         "Name": "Rupjyoti saikia",
+         "ReferralCode": "KZN320242",
+         "Score": 5000
         },
         {
          "Rank": 18,
-         "ReferralCode": "KZN320272",
-         "Name": "Manpreet Singh",
-         "Score": 2600
+         "Name": "parv narang",
+         "ReferralCode": "KZN320193",
+         "Score": 2800
         },
         {
          "Rank": 19,
-         "ReferralCode": "KZN320222",
-         "Name": "Nitish Kumar",
-         "Score": 2375
+         "Name": "Shruti Sharma",
+         "ReferralCode": "KZN320174",
+         "Score": 2750
         },
         {
          "Rank": 20,
-         "ReferralCode": "KZN320922",
-         "Name": "Mohsin Akhtar",
-         "Score": 2350
+         "Name": "Sidharth Mishra",
+         "ReferralCode": "KZN320165",
+         "Score": 2700
         },
         {
          "Rank": 21,
-         "ReferralCode": "KZN320924",
-         "Name": "Luv Sharma",
-         "Score": 2350
+         "Name": "Prateek Sinha",
+         "ReferralCode": "KZN320284",
+         "Score": 2625
         },
         {
          "Rank": 22,
-         "ReferralCode": "KZN320181",
-         "Name": "Chanchal Gupta",
-         "Score": 2150
+         "Name": "Manpreet Singh",
+         "ReferralCode": "KZN320272",
+         "Score": 2600
         },
         {
          "Rank": 23,
-         "ReferralCode": "KZN320165",
-         "Name": "Sidharth Mishra",
-         "Score": 2050
+         "Name": "Nitish Kumar",
+         "ReferralCode": "KZN320222",
+         "Score": 2375
         },
         {
          "Rank": 24,
-         "ReferralCode": "KZN320195",
-         "Name": "Mariyam naseem",
-         "Score": 1750
+         "Name": "Chanchal Gupta",
+         "ReferralCode": "KZN320181",
+         "Score": 2150
         },
         {
          "Rank": 25,
-         "ReferralCode": "KZN320227",
-         "Name": "Pritam Kumar Ravi",
+         "Name": "Mariyam naseem",
+         "ReferralCode": "KZN320195",
          "Score": 1750
         },
         {
          "Rank": 26,
-         "ReferralCode": "KZN320160",
-         "Name": "Snigdha Singh",
-         "Score": 1700
+         "Name": "Pritam Kumar Ravi",
+         "ReferralCode": "KZN320227",
+         "Score": 1750
         },
         {
          "Rank": 27,
-         "ReferralCode": "KZN320153",
-         "Name": "Shazia Parween",
-         "Score": 1525
+         "Name": "Snigdha Singh",
+         "ReferralCode": "KZN320160",
+         "Score": 1700
         },
         {
          "Rank": 28,
-         "ReferralCode": "KZN320266",
-         "Name": "Kaushik Gogoi",
-         "Score": 1500
+         "Name": "Shazia Parween",
+         "ReferralCode": "KZN320153",
+         "Score": 1525
         },
         {
          "Rank": 29,
-         "ReferralCode": "KZN320188",
-         "Name": "Samyak Jain",
-         "Score": 1425
+         "Name": "Kaushik Gogoi",
+         "ReferralCode": "KZN320266",
+         "Score": 1500
         },
         {
          "Rank": 30,
-         "ReferralCode": "KZN320216",
-         "Name": "Harsh Talan",
-         "Score": 1325
+         "Name": "Samyak Jain",
+         "ReferralCode": "KZN320188",
+         "Score": 1425
         },
         {
          "Rank": 31,
-         "ReferralCode": "KZN320159",
-         "Name": "Ashish Aggarwal",
-         "Score": 1300
+         "Name": "Harsh Talan",
+         "ReferralCode": "KZN320216",
+         "Score": 1325
         },
         {
          "Rank": 32,
-         "ReferralCode": "KZN320192",
-         "Name": "Tanya Khandelwal",
+         "Name": "Ashish Aggarwal",
+         "ReferralCode": "KZN320159",
          "Score": 1300
         },
         {
          "Rank": 33,
-         "ReferralCode": "KZN320170",
-         "Name": "Jatin Jatinberiwal",
-         "Score": 1200
+         "Name": "Tanya Khandelwal",
+         "ReferralCode": "KZN320192",
+         "Score": 1300
         },
         {
          "Rank": 34,
-         "ReferralCode": "KZN320172",
-         "Name": "Shivani Gupta",
-         "Score": 1000
+         "Name": "Jatin Jatinberiwal",
+         "ReferralCode": "KZN320170",
+         "Score": 1200
         },
         {
          "Rank": 35,
-         "ReferralCode": "KZN320175",
-         "Name": "Sanskar Kumar Vidyarthi",
+         "Name": "Shivani Gupta",
+         "ReferralCode": "KZN320172",
          "Score": 1000
         },
         {
          "Rank": 36,
-         "ReferralCode": "KZN320254",
-         "Name": "Nikhil",
+         "Name": "Sanskar Kumar Vidyarthi",
+         "ReferralCode": "KZN320175",
          "Score": 1000
         },
         {
          "Rank": 37,
-         "ReferralCode": "KZN320257",
-         "Name": "Sephali dalai",
+         "Name": "Nikhil",
+         "ReferralCode": "KZN320254",
          "Score": 1000
         },
         {
          "Rank": 38,
-         "ReferralCode": "KZN320258",
-         "Name": "Sri Durga Bhavani Bandaru",
+         "Name": "Sephali dalai",
+         "ReferralCode": "KZN320257",
          "Score": 1000
         },
         {
          "Rank": 39,
-         "ReferralCode": "KZN320260",
-         "Name": "Mohit Bhandari",
+         "Name": "Sri Durga Bhavani Bandaru",
+         "ReferralCode": "KZN320258",
          "Score": 1000
         },
         {
          "Rank": 40,
-         "ReferralCode": "KZN320265",
-         "Name": "SHUBHAM KUMAR PANDEY",
+         "Name": "Mohit Bhandari",
+         "ReferralCode": "KZN320260",
          "Score": 1000
         },
         {
          "Rank": 41,
-         "ReferralCode": "KZN320268",
-         "Name": "Prashant Singh Rajawat",
+         "Name": "SHUBHAM KUMAR PANDEY",
+         "ReferralCode": "KZN320265",
          "Score": 1000
         },
         {
          "Rank": 42,
-         "ReferralCode": "KZN320950",
-         "Name": "Shubham Mishra",
+         "Name": "Prashant Singh Rajawat",
+         "ReferralCode": "KZN320268",
          "Score": 1000
         },
         {
          "Rank": 43,
-         "ReferralCode": "KZN320223",
-         "Name": "Surajit Dutta",
-         "Score": 500
+         "Name": "Shubham Mishra",
+         "ReferralCode": "KZN320950",
+         "Score": 1000
         },
         {
          "Rank": 44,
-         "ReferralCode": "KZN320207",
-         "Name": "Khathija Khathija",
-         "Score": 300
+         "Name": "Surajit Dutta",
+         "ReferralCode": "KZN320223",
+         "Score": 500
         },
         {
          "Rank": 45,
-         "ReferralCode": "KZN320215",
-         "Name": "Archanaa N",
-         "Score": 200
+         "Name": "Vinit Gupta",
+         "ReferralCode": "KZN320226",
+         "Score": 500
         },
         {
          "Rank": 46,
-         "ReferralCode": "KZN320189",
-         "Name": "Anmol Agarwal",
-         "Score": 100
+         "Name": "Khathija Khathija",
+         "ReferralCode": "KZN320207",
+         "Score": 300
         },
         {
          "Rank": 47,
-         "ReferralCode": "KZN320144",
-         "Name": "Akshita Bhatia",
-         "Score": 0
+         "Name": "Archanaa N",
+         "ReferralCode": "KZN320215",
+         "Score": 200
         },
         {
          "Rank": 48,
-         "ReferralCode": "KZN320145",
-         "Name": "Kanika Kandoi",
-         "Score": 0
+         "Name": "Anmol Agarwal",
+         "ReferralCode": "KZN320189",
+         "Score": 100
         },
         {
          "Rank": 49,
-         "ReferralCode": "KZN320146",
-         "Name": "Aparna Tiwari",
-         "Score": 0
+         "Name": "Rashi Garg",
+         "ReferralCode": "KZN320925",
+         "Score": 50
         },
         {
          "Rank": 50,
-         "ReferralCode": "KZN320147",
-         "Name": "Gaurav Kumar",
+         "Name": "Akshita Bhatia",
+         "ReferralCode": "KZN320144",
          "Score": 0
         },
         {
          "Rank": 51,
-         "ReferralCode": "KZN320149",
-         "Name": "Jhanvi Chauhan",
+         "Name": "Kanika Kandoi",
+         "ReferralCode": "KZN320145",
          "Score": 0
         },
         {
          "Rank": 52,
-         "ReferralCode": "KZN320150",
-         "Name": "Jigyasa",
+         "Name": "Aparna Tiwari",
+         "ReferralCode": "KZN320146",
          "Score": 0
         },
         {
          "Rank": 53,
-         "ReferralCode": "KZN320151",
-         "Name": "Ayush Sharma",
+         "Name": "Gaurav Kumar",
+         "ReferralCode": "KZN320147",
          "Score": 0
         },
         {
          "Rank": 54,
-         "ReferralCode": "KZN320152",
-         "Name": "Sunil Kumar",
+         "Name": "Jhanvi Chauhan",
+         "ReferralCode": "KZN320149",
          "Score": 0
         },
         {
          "Rank": 55,
-         "ReferralCode": "KZN320154",
-         "Name": "Dimmy Chongloi",
+         "Name": "Jigyasa",
+         "ReferralCode": "KZN320150",
          "Score": 0
         },
         {
          "Rank": 56,
-         "ReferralCode": "KZN320155",
-         "Name": "Aastha Pandey",
+         "Name": "Ayush Sharma",
+         "ReferralCode": "KZN320151",
          "Score": 0
         },
         {
          "Rank": 57,
-         "ReferralCode": "KZN320156",
-         "Name": "Vibhansh Kumar",
+         "Name": "Sunil Kumar",
+         "ReferralCode": "KZN320152",
          "Score": 0
         },
         {
          "Rank": 58,
-         "ReferralCode": "KZN320157",
-         "Name": "Deepanshu Kamal",
+         "Name": "Dimmy Chongloi",
+         "ReferralCode": "KZN320154",
          "Score": 0
         },
         {
          "Rank": 59,
-         "ReferralCode": "KZN320158",
-         "Name": "Lavya Kapur",
+         "Name": "Aastha Pandey",
+         "ReferralCode": "KZN320155",
          "Score": 0
         },
         {
          "Rank": 60,
-         "ReferralCode": "KZN320161",
-         "Name": "Vinay Kandpal",
+         "Name": "Vibhansh Kumar",
+         "ReferralCode": "KZN320156",
          "Score": 0
         },
         {
          "Rank": 61,
-         "ReferralCode": "KZN320163",
-         "Name": "Kanchan Panwar",
+         "Name": "Deepanshu Kamal",
+         "ReferralCode": "KZN320157",
          "Score": 0
         },
         {
          "Rank": 62,
-         "ReferralCode": "KZN320164",
-         "Name": "Abhay Kumar",
+         "Name": "Lavya Kapur",
+         "ReferralCode": "KZN320158",
          "Score": 0
         },
         {
          "Rank": 63,
-         "ReferralCode": "KZN320166",
-         "Name": "Narender Singh",
+         "Name": "Vinay Kandpal",
+         "ReferralCode": "KZN320161",
          "Score": 0
         },
         {
          "Rank": 64,
-         "ReferralCode": "KZN320167",
-         "Name": "Nisha Sehrawat",
+         "Name": "Kanchan Panwar",
+         "ReferralCode": "KZN320163",
          "Score": 0
         },
         {
          "Rank": 65,
-         "ReferralCode": "KZN320168",
-         "Name": "Rahul",
+         "Name": "Abhay Kumar",
+         "ReferralCode": "KZN320164",
          "Score": 0
         },
         {
          "Rank": 66,
-         "ReferralCode": "KZN320169",
-         "Name": "Bindu",
+         "Name": "Narender Singh",
+         "ReferralCode": "KZN320166",
          "Score": 0
         },
         {
          "Rank": 67,
-         "ReferralCode": "KZN320171",
-         "Name": "Shivani Yadav",
+         "Name": "Nisha Sehrawat",
+         "ReferralCode": "KZN320167",
          "Score": 0
         },
         {
          "Rank": 68,
-         "ReferralCode": "KZN320173",
-         "Name": "Sonam Khurana",
+         "Name": "Rahul",
+         "ReferralCode": "KZN320168",
          "Score": 0
         },
         {
          "Rank": 69,
-         "ReferralCode": "KZN320176",
-         "Name": "Rahul Kumar",
+         "Name": "Bindu",
+         "ReferralCode": "KZN320169",
          "Score": 0
         },
         {
          "Rank": 70,
-         "ReferralCode": "KZN320177",
-         "Name": "Prabhat Sharma",
+         "Name": "Shivani Yadav",
+         "ReferralCode": "KZN320171",
          "Score": 0
         },
         {
          "Rank": 71,
-         "ReferralCode": "KZN320178",
-         "Name": "Aryan Kashyap",
+         "Name": "Sonam Khurana",
+         "ReferralCode": "KZN320173",
          "Score": 0
         },
         {
          "Rank": 72,
-         "ReferralCode": "KZN320179",
-         "Name": "Ria Khound",
+         "Name": "Rahul Kumar",
+         "ReferralCode": "KZN320176",
          "Score": 0
         },
         {
          "Rank": 73,
-         "ReferralCode": "KZN320180",
-         "Name": "Jagjeet Singh",
+         "Name": "Prabhat Sharma",
+         "ReferralCode": "KZN320177",
          "Score": 0
         },
         {
          "Rank": 74,
-         "ReferralCode": "KZN320182",
-         "Name": "Agrini Tiwari",
+         "Name": "Aryan Kashyap",
+         "ReferralCode": "KZN320178",
          "Score": 0
         },
         {
          "Rank": 75,
-         "ReferralCode": "KZN320183",
-         "Name": "Arushi Chaturvedi",
+         "Name": "Ria Khound",
+         "ReferralCode": "KZN320179",
          "Score": 0
         },
         {
          "Rank": 76,
-         "ReferralCode": "KZN320184",
-         "Name": "SOURAV KUMAR",
+         "Name": "Jagjeet Singh",
+         "ReferralCode": "KZN320180",
          "Score": 0
         },
         {
          "Rank": 77,
-         "ReferralCode": "KZN320186",
-         "Name": "Kavita Singh",
+         "Name": "Agrini Tiwari",
+         "ReferralCode": "KZN320182",
          "Score": 0
         },
         {
          "Rank": 78,
-         "ReferralCode": "KZN320190",
-         "Name": "SHASHANK SHONAK",
+         "Name": "Arushi Chaturvedi",
+         "ReferralCode": "KZN320183",
          "Score": 0
         },
         {
          "Rank": 79,
-         "ReferralCode": "KZN320191",
-         "Name": "arushi Chaturvedi",
+         "Name": "SOURAV KUMAR",
+         "ReferralCode": "KZN320184",
          "Score": 0
         },
         {
          "Rank": 80,
-         "ReferralCode": "KZN320196",
-         "Name": "SAURABH SHARMA",
+         "Name": "Kavita Singh",
+         "ReferralCode": "KZN320186",
          "Score": 0
         },
         {
          "Rank": 81,
-         "ReferralCode": "KZN320197",
-         "Name": "Shivansh Tiwari",
+         "Name": "SHASHANK SHONAK",
+         "ReferralCode": "KZN320190",
          "Score": 0
         },
         {
          "Rank": 82,
-         "ReferralCode": "KZN320198",
-         "Name": "Nehal Singh",
+         "Name": "arushi Chaturvedi",
+         "ReferralCode": "KZN320191",
          "Score": 0
         },
         {
          "Rank": 83,
-         "ReferralCode": "KZN320199",
-         "Name": "Mamta Shahi",
+         "Name": "SAURABH SHARMA",
+         "ReferralCode": "KZN320196",
          "Score": 0
         },
         {
          "Rank": 84,
-         "ReferralCode": "KZN320200",
-         "Name": "Resham Lal",
+         "Name": "Shivansh Tiwari",
+         "ReferralCode": "KZN320197",
          "Score": 0
         },
         {
          "Rank": 85,
-         "ReferralCode": "KZN320203",
-         "Name": "PAWAN KUMAR CHOPAL",
+         "Name": "Nehal Singh",
+         "ReferralCode": "KZN320198",
          "Score": 0
         },
         {
          "Rank": 86,
-         "ReferralCode": "KZN320204",
-         "Name": "Radhika Garg",
+         "Name": "Mamta Shahi",
+         "ReferralCode": "KZN320199",
          "Score": 0
         },
         {
          "Rank": 87,
-         "ReferralCode": "KZN320205",
-         "Name": "Yash Sharma",
+         "Name": "Resham Lal",
+         "ReferralCode": "KZN320200",
          "Score": 0
         },
         {
          "Rank": 88,
-         "ReferralCode": "KZN320206",
-         "Name": "Archie Upadhyay",
+         "Name": "PAWAN KUMAR CHOPAL",
+         "ReferralCode": "KZN320203",
          "Score": 0
         },
         {
          "Rank": 89,
-         "ReferralCode": "KZN320208",
-         "Name": "Akash",
+         "Name": "Radhika Garg",
+         "ReferralCode": "KZN320204",
          "Score": 0
         },
         {
          "Rank": 90,
-         "ReferralCode": "KZN320210",
-         "Name": "Rushikesh Shewale",
+         "Name": "Yash Sharma",
+         "ReferralCode": "KZN320205",
          "Score": 0
         },
         {
          "Rank": 91,
-         "ReferralCode": "KZN320211",
-         "Name": "Srinithi P",
+         "Name": "Archie Upadhyay",
+         "ReferralCode": "KZN320206",
          "Score": 0
         },
         {
          "Rank": 92,
-         "ReferralCode": "KZN320212",
-         "Name": "Surendhar R G",
+         "Name": "Akash",
+         "ReferralCode": "KZN320208",
          "Score": 0
         },
         {
          "Rank": 93,
-         "ReferralCode": "KZN320213",
-         "Name": "Deepak Anand",
+         "Name": "Rushikesh Shewale",
+         "ReferralCode": "KZN320210",
          "Score": 0
         },
         {
          "Rank": 94,
-         "ReferralCode": "KZN320214",
-         "Name": "Roshini Saravanan",
+         "Name": "Srinithi P",
+         "ReferralCode": "KZN320211",
          "Score": 0
         },
         {
          "Rank": 95,
-         "ReferralCode": "KZN320217",
-         "Name": "R Nivetha Ravichandran",
+         "Name": "Surendhar R G",
+         "ReferralCode": "KZN320212",
          "Score": 0
         },
         {
          "Rank": 96,
-         "ReferralCode": "KZN320218",
-         "Name": "Surendra Machara",
+         "Name": "Deepak Anand",
+         "ReferralCode": "KZN320213",
          "Score": 0
         },
         {
          "Rank": 97,
-         "ReferralCode": "KZN320219",
-         "Name": "Harish Kumar M",
+         "Name": "Roshini Saravanan",
+         "ReferralCode": "KZN320214",
          "Score": 0
         },
         {
          "Rank": 98,
-         "ReferralCode": "KZN320220",
-         "Name": "DHANA SEKARAN M B.Sc IT",
+         "Name": "R Nivetha Ravichandran",
+         "ReferralCode": "KZN320217",
          "Score": 0
         },
         {
          "Rank": 99,
-         "ReferralCode": "KZN320221",
-         "Name": "ABIRAM. G",
+         "Name": "Surendra Machara",
+         "ReferralCode": "KZN320218",
          "Score": 0
         },
         {
          "Rank": 100,
-         "ReferralCode": "KZN320225",
-         "Name": "Dhiraj kumar jha",
+         "Name": "Harish Kumar M",
+         "ReferralCode": "KZN320219",
          "Score": 0
         },
         {
          "Rank": 101,
-         "ReferralCode": "KZN320226",
-         "Name": "Vinit Gupta",
+         "Name": "DHANA SEKARAN M B.Sc IT",
+         "ReferralCode": "KZN320220",
          "Score": 0
         },
         {
          "Rank": 102,
-         "ReferralCode": "KZN320228",
-         "Name": "Paridhi Majgaine",
+         "Name": "ABIRAM. G",
+         "ReferralCode": "KZN320221",
          "Score": 0
         },
         {
          "Rank": 103,
-         "ReferralCode": "KZN320229",
-         "Name": "Anamika Chaudhary",
+         "Name": "Dhiraj kumar jha",
+         "ReferralCode": "KZN320225",
          "Score": 0
         },
         {
          "Rank": 104,
-         "ReferralCode": "KZN320230",
-         "Name": "Niyati Goyal",
+         "Name": "Paridhi Majgaine",
+         "ReferralCode": "KZN320228",
          "Score": 0
         },
         {
          "Rank": 105,
-         "ReferralCode": "KZN320231",
-         "Name": "AKASH UNIYAL",
+         "Name": "Anamika Chaudhary",
+         "ReferralCode": "KZN320229",
          "Score": 0
         },
         {
          "Rank": 106,
-         "ReferralCode": "KZN320232",
-         "Name": "Abhishek Shah",
+         "Name": "Niyati Goyal",
+         "ReferralCode": "KZN320230",
          "Score": 0
         },
         {
          "Rank": 107,
-         "ReferralCode": "KZN320233",
-         "Name": "Aman Kumar",
+         "Name": "AKASH UNIYAL",
+         "ReferralCode": "KZN320231",
          "Score": 0
         },
         {
          "Rank": 108,
-         "ReferralCode": "KZN320234",
-         "Name": "Rishita Tyagi",
+         "Name": "Abhishek Shah",
+         "ReferralCode": "KZN320232",
          "Score": 0
         },
         {
          "Rank": 109,
-         "ReferralCode": "KZN320235",
-         "Name": "Britney Rai",
+         "Name": "Aman Kumar",
+         "ReferralCode": "KZN320233",
          "Score": 0
         },
         {
          "Rank": 110,
-         "ReferralCode": "KZN320236",
-         "Name": "Sumit Malan",
+         "Name": "Rishita Tyagi",
+         "ReferralCode": "KZN320234",
          "Score": 0
         },
         {
          "Rank": 111,
-         "ReferralCode": "KZN320237",
-         "Name": "Shivam Parashar",
+         "Name": "Britney Rai",
+         "ReferralCode": "KZN320235",
          "Score": 0
         },
         {
          "Rank": 112,
-         "ReferralCode": "KZN320238",
-         "Name": "Saurabh Chauhan",
+         "Name": "Sumit Malan",
+         "ReferralCode": "KZN320236",
          "Score": 0
         },
         {
          "Rank": 113,
-         "ReferralCode": "KZN320239",
-         "Name": "Sumeet Vishwakarma",
+         "Name": "Shivam Parashar",
+         "ReferralCode": "KZN320237",
          "Score": 0
         },
         {
          "Rank": 114,
-         "ReferralCode": "KZN320240",
-         "Name": "Hemant Pramanik",
+         "Name": "Saurabh Chauhan",
+         "ReferralCode": "KZN320238",
          "Score": 0
         },
         {
          "Rank": 115,
-         "ReferralCode": "KZN320241",
-         "Name": "Anannya Dutta",
+         "Name": "Sumeet Vishwakarma",
+         "ReferralCode": "KZN320239",
          "Score": 0
         },
         {
          "Rank": 116,
-         "ReferralCode": "KZN320243",
-         "Name": "Aishu Kandhan",
+         "Name": "Hemant Pramanik",
+         "ReferralCode": "KZN320240",
          "Score": 0
         },
         {
          "Rank": 117,
-         "ReferralCode": "KZN320244",
-         "Name": "Yashi Jethani",
+         "Name": "Anannya Dutta",
+         "ReferralCode": "KZN320241",
          "Score": 0
         },
         {
          "Rank": 118,
-         "ReferralCode": "KZN320246",
-         "Name": "Souvik Mandal",
+         "Name": "Aishu Kandhan",
+         "ReferralCode": "KZN320243",
          "Score": 0
         },
         {
          "Rank": 119,
-         "ReferralCode": "KZN320247",
-         "Name": "Vedeshvar",
+         "Name": "Yashi Jethani",
+         "ReferralCode": "KZN320244",
          "Score": 0
         },
         {
          "Rank": 120,
-         "ReferralCode": "KZN320248",
-         "Name": "Tanushka Yadav",
+         "Name": "Souvik Mandal",
+         "ReferralCode": "KZN320246",
          "Score": 0
         },
         {
          "Rank": 121,
-         "ReferralCode": "KZN320249",
-         "Name": "Nikhil Kumar",
+         "Name": "Vedeshvar",
+         "ReferralCode": "KZN320247",
          "Score": 0
         },
         {
          "Rank": 122,
-         "ReferralCode": "KZN320250",
-         "Name": "Vansh Manchanda",
+         "Name": "Tanushka Yadav",
+         "ReferralCode": "KZN320248",
          "Score": 0
         },
         {
          "Rank": 123,
-         "ReferralCode": "KZN320252",
-         "Name": "Kashan Khan",
+         "Name": "Nikhil Kumar",
+         "ReferralCode": "KZN320249",
          "Score": 0
         },
         {
          "Rank": 124,
-         "ReferralCode": "KZN320253",
-         "Name": "MUCHAPATHI BALAKISHAN BALAKISHAN PATEL",
+         "Name": "Vansh Manchanda",
+         "ReferralCode": "KZN320250",
          "Score": 0
         },
         {
          "Rank": 125,
-         "ReferralCode": "KZN320255",
-         "Name": "Manav Surti",
+         "Name": "Kashan Khan",
+         "ReferralCode": "KZN320252",
          "Score": 0
         },
         {
          "Rank": 126,
-         "ReferralCode": "KZN320256",
-         "Name": "Amanprit Singh",
+         "Name": "MUCHAPATHI BALAKISHAN BALAKISHAN PATEL",
+         "ReferralCode": "KZN320253",
          "Score": 0
         },
         {
          "Rank": 127,
-         "ReferralCode": "KZN320259",
-         "Name": "Dhruv Paidlewar",
+         "Name": "Manav Surti",
+         "ReferralCode": "KZN320255",
          "Score": 0
         },
         {
          "Rank": 128,
-         "ReferralCode": "KZN320261",
-         "Name": "Jyatirmoy Dey",
+         "Name": "Amanprit Singh",
+         "ReferralCode": "KZN320256",
          "Score": 0
         },
         {
          "Rank": 129,
-         "ReferralCode": "KZN320262",
-         "Name": "Khushmeet Kaur",
+         "Name": "Dhruv Paidlewar",
+         "ReferralCode": "KZN320259",
          "Score": 0
         },
         {
          "Rank": 130,
-         "ReferralCode": "KZN320264",
-         "Name": "Surya pratap yadav",
+         "Name": "Jyatirmoy Dey",
+         "ReferralCode": "KZN320261",
          "Score": 0
         },
         {
          "Rank": 131,
-         "ReferralCode": "KZN320267",
-         "Name": "Devesh Agarwal",
+         "Name": "Khushmeet Kaur",
+         "ReferralCode": "KZN320262",
          "Score": 0
         },
         {
          "Rank": 132,
-         "ReferralCode": "KZN320269",
-         "Name": "Jatin Dixit",
+         "Name": "Surya pratap yadav",
+         "ReferralCode": "KZN320264",
          "Score": 0
         },
         {
          "Rank": 133,
-         "ReferralCode": "KZN320270",
-         "Name": "Sonam Gupta",
+         "Name": "Devesh Agarwal",
+         "ReferralCode": "KZN320267",
          "Score": 0
         },
         {
          "Rank": 134,
-         "ReferralCode": "KZN320271",
-         "Name": "Naman Sharma",
+         "Name": "Jatin Dixit",
+         "ReferralCode": "KZN320269",
          "Score": 0
         },
         {
          "Rank": 135,
-         "ReferralCode": "KZN320273",
-         "Name": "Shubham Trivedi",
+         "Name": "Sonam Gupta",
+         "ReferralCode": "KZN320270",
          "Score": 0
         },
         {
          "Rank": 136,
-         "ReferralCode": "KZN320274",
-         "Name": "Shreya Dutta",
+         "Name": "Naman Sharma",
+         "ReferralCode": "KZN320271",
          "Score": 0
         },
         {
          "Rank": 137,
-         "ReferralCode": "KZN320275",
-         "Name": "NURHOSEN MONDAL",
+         "Name": "Shubham Trivedi",
+         "ReferralCode": "KZN320273",
          "Score": 0
         },
         {
          "Rank": 138,
-         "ReferralCode": "KZN320276",
-         "Name": "Shubham Das",
+         "Name": "Shreya Dutta",
+         "ReferralCode": "KZN320274",
          "Score": 0
         },
         {
          "Rank": 139,
-         "ReferralCode": "KZN320277",
-         "Name": "Christine Atkinson",
+         "Name": "NURHOSEN MONDAL",
+         "ReferralCode": "KZN320275",
          "Score": 0
         },
         {
          "Rank": 140,
-         "ReferralCode": "KZN320278",
-         "Name": "NILESH AGARWAL",
+         "Name": "Shubham Das",
+         "ReferralCode": "KZN320276",
          "Score": 0
         },
         {
          "Rank": 141,
-         "ReferralCode": "KZN320279",
-         "Name": "Ashish Madhup",
+         "Name": "Christine Atkinson",
+         "ReferralCode": "KZN320277",
          "Score": 0
         },
         {
          "Rank": 142,
-         "ReferralCode": "KZN320280",
-         "Name": "Babita Sharma",
+         "Name": "NILESH AGARWAL",
+         "ReferralCode": "KZN320278",
          "Score": 0
         },
         {
          "Rank": 143,
-         "ReferralCode": "KZN320281",
          "Name": "Ashish Madhup",
+         "ReferralCode": "KZN320279",
          "Score": 0
         },
         {
          "Rank": 144,
-         "ReferralCode": "KZN320282",
-         "Name": "Omkar Gowdru",
+         "Name": "Babita Sharma",
+         "ReferralCode": "KZN320280",
          "Score": 0
         },
         {
          "Rank": 145,
-         "ReferralCode": "KZN320283",
-         "Name": "Souvik Bose",
+         "Name": "Ashish Madhup",
+         "ReferralCode": "KZN320281",
          "Score": 0
         },
         {
          "Rank": 146,
-         "ReferralCode": "KZN320285",
-         "Name": "Sujal Das",
+         "Name": "Omkar Gowdru",
+         "ReferralCode": "KZN320282",
          "Score": 0
         },
         {
          "Rank": 147,
-         "ReferralCode": "KZN320908",
-         "Name": "Shruti Verma",
+         "Name": "Souvik Bose",
+         "ReferralCode": "KZN320283",
          "Score": 0
         },
         {
          "Rank": 148,
-         "ReferralCode": "KZN320909",
-         "Name": "Ivleen Kaur",
+         "Name": "Sujal Das",
+         "ReferralCode": "KZN320285",
          "Score": 0
         },
         {
          "Rank": 149,
-         "ReferralCode": "KZN320910",
-         "Name": "Mahima Ahuja",
+         "Name": "Shruti Verma",
+         "ReferralCode": "KZN320908",
          "Score": 0
         },
         {
          "Rank": 150,
-         "ReferralCode": "KZN320911",
-         "Name": "Sukriti Rai",
+         "Name": "Ivleen Kaur",
+         "ReferralCode": "KZN320909",
          "Score": 0
         },
         {
          "Rank": 151,
-         "ReferralCode": "KZN320912",
-         "Name": "Abhishek",
+         "Name": "Mahima Ahuja",
+         "ReferralCode": "KZN320910",
          "Score": 0
         },
         {
          "Rank": 152,
-         "ReferralCode": "KZN320913",
-         "Name": "Jigyasa Rawat",
+         "Name": "Sukriti Rai",
+         "ReferralCode": "KZN320911",
          "Score": 0
         },
         {
          "Rank": 153,
-         "ReferralCode": "KZN320914",
-         "Name": "Pawan Kumar",
+         "Name": "Abhishek",
+         "ReferralCode": "KZN320912",
          "Score": 0
         },
         {
          "Rank": 154,
-         "ReferralCode": "KZN320915",
-         "Name": "Dishu",
+         "Name": "Jigyasa Rawat",
+         "ReferralCode": "KZN320913",
          "Score": 0
         },
         {
          "Rank": 155,
-         "ReferralCode": "KZN320916",
-         "Name": "Deepasha Narwara",
+         "Name": "Pawan Kumar",
+         "ReferralCode": "KZN320914",
          "Score": 0
         },
         {
          "Rank": 156,
-         "ReferralCode": "KZN320917",
-         "Name": "Mearaj Khan",
+         "Name": "Dishu",
+         "ReferralCode": "KZN320915",
          "Score": 0
         },
         {
          "Rank": 157,
-         "ReferralCode": "KZN320918",
-         "Name": "Mamta Thapa",
+         "Name": "Deepasha Narwara",
+         "ReferralCode": "KZN320916",
          "Score": 0
         },
         {
          "Rank": 158,
-         "ReferralCode": "KZN320919",
-         "Name": "Parth Bhatia",
+         "Name": "Mearaj Khan",
+         "ReferralCode": "KZN320917",
          "Score": 0
         },
         {
          "Rank": 159,
-         "ReferralCode": "KZN320920",
-         "Name": "Arpita Sinha",
+         "Name": "Mamta Thapa",
+         "ReferralCode": "KZN320918",
          "Score": 0
         },
         {
          "Rank": 160,
-         "ReferralCode": "KZN320921",
-         "Name": "Abhimanyu Kumar Pal",
+         "Name": "Parth Bhatia",
+         "ReferralCode": "KZN320919",
          "Score": 0
         },
         {
          "Rank": 161,
-         "ReferralCode": "KZN320923",
-         "Name": "Tejaswini .",
+         "Name": "Arpita Sinha",
+         "ReferralCode": "KZN320920",
          "Score": 0
         },
         {
          "Rank": 162,
-         "ReferralCode": "KZN320925",
-         "Name": "Rashi Garg",
+         "Name": "Abhimanyu Kumar Pal",
+         "ReferralCode": "KZN320921",
          "Score": 0
         },
         {
          "Rank": 163,
-         "ReferralCode": "KZN320926",
-         "Name": "Sarthak Singh",
+         "Name": "Tejaswini .",
+         "ReferralCode": "KZN320923",
          "Score": 0
         },
         {
          "Rank": 164,
-         "ReferralCode": "KZN320927",
-         "Name": "Amitabh Gupta",
+         "Name": "Sarthak Singh",
+         "ReferralCode": "KZN320926",
          "Score": 0
         },
         {
          "Rank": 165,
-         "ReferralCode": "KZN320928",
-         "Name": "Jahanvi",
+         "Name": "Amitabh Gupta",
+         "ReferralCode": "KZN320927",
          "Score": 0
         },
         {
          "Rank": 166,
-         "ReferralCode": "KZN320929",
-         "Name": "Kalpajyoti Saikia",
+         "Name": "Jahanvi",
+         "ReferralCode": "KZN320928",
          "Score": 0
         },
         {
          "Rank": 167,
-         "ReferralCode": "KZN320930",
-         "Name": "Vani",
+         "Name": "Kalpajyoti Saikia",
+         "ReferralCode": "KZN320929",
          "Score": 0
         },
         {
          "Rank": 168,
-         "ReferralCode": "KZN320931",
-         "Name": "Sakshi",
+         "Name": "Vani",
+         "ReferralCode": "KZN320930",
          "Score": 0
         },
         {
          "Rank": 169,
-         "ReferralCode": "KZN320932",
-         "Name": "Anubhav Gupta",
+         "Name": "Sakshi",
+         "ReferralCode": "KZN320931",
          "Score": 0
         },
         {
          "Rank": 170,
-         "ReferralCode": "KZN320933",
-         "Name": "Shubhi Gupta",
+         "Name": "Anubhav Gupta",
+         "ReferralCode": "KZN320932",
          "Score": 0
         },
         {
          "Rank": 171,
-         "ReferralCode": "KZN320934",
-         "Name": "Krati Dwivedi",
+         "Name": "Shubhi Gupta",
+         "ReferralCode": "KZN320933",
          "Score": 0
         },
         {
          "Rank": 172,
-         "ReferralCode": "KZN320935",
-         "Name": "Ishika Sandhu",
+         "Name": "Krati Dwivedi",
+         "ReferralCode": "KZN320934",
          "Score": 0
         },
         {
          "Rank": 173,
-         "ReferralCode": "KZN320936",
-         "Name": "Nandini Singh",
+         "Name": "Ishika Sandhu",
+         "ReferralCode": "KZN320935",
          "Score": 0
         },
         {
          "Rank": 174,
-         "ReferralCode": "KZN320937",
-         "Name": "Abdulmojeed Adisa",
+         "Name": "Nandini Singh",
+         "ReferralCode": "KZN320936",
          "Score": 0
         },
         {
          "Rank": 175,
-         "ReferralCode": "KZN320938",
-         "Name": "Dipanshu Verma",
+         "Name": "Abdulmojeed Adisa",
+         "ReferralCode": "KZN320937",
          "Score": 0
         },
         {
          "Rank": 176,
-         "ReferralCode": "KZN320939",
-         "Name": "Rahul Prajapat",
+         "Name": "Dipanshu Verma",
+         "ReferralCode": "KZN320938",
          "Score": 0
         },
         {
          "Rank": 177,
-         "ReferralCode": "KZN320940",
-         "Name": "Priyanka Shekhawat",
+         "Name": "Rahul Prajapat",
+         "ReferralCode": "KZN320939",
          "Score": 0
         },
         {
          "Rank": 178,
-         "ReferralCode": "KZN320941",
-         "Name": "Abhishek Kumar Shaw",
+         "Name": "Priyanka Shekhawat",
+         "ReferralCode": "KZN320940",
          "Score": 0
         },
         {
          "Rank": 179,
-         "ReferralCode": "KZN320942",
-         "Name": "Neeraj Rasinghani",
+         "Name": "Abhishek Kumar Shaw",
+         "ReferralCode": "KZN320941",
          "Score": 0
         },
         {
          "Rank": 180,
-         "ReferralCode": "KZN320943",
-         "Name": "Divit Pandey",
+         "Name": "Neeraj Rasinghani",
+         "ReferralCode": "KZN320942",
          "Score": 0
         },
         {
          "Rank": 181,
-         "ReferralCode": "KZN320944",
-         "Name": "Aditi Gupta",
+         "Name": "Divit Pandey",
+         "ReferralCode": "KZN320943",
          "Score": 0
         },
         {
          "Rank": 182,
-         "ReferralCode": "KZN320945",
-         "Name": "Rohit Kumar Shrivas",
+         "Name": "Aditi Gupta",
+         "ReferralCode": "KZN320944",
          "Score": 0
         },
         {
          "Rank": 183,
-         "ReferralCode": "KZN320946",
-         "Name": "Shivam Sharma",
+         "Name": "Rohit Kumar Shrivas",
+         "ReferralCode": "KZN320945",
          "Score": 0
         },
         {
          "Rank": 184,
-         "ReferralCode": "KZN320947",
-         "Name": "Samriddhi Guha",
+         "Name": "Shivam Sharma",
+         "ReferralCode": "KZN320946",
          "Score": 0
         },
         {
          "Rank": 185,
-         "ReferralCode": "KZN320948",
-         "Name": "Rishav Pagaria",
+         "Name": "Samriddhi Guha",
+         "ReferralCode": "KZN320947",
          "Score": 0
         },
         {
          "Rank": 186,
-         "ReferralCode": "KZN320949",
-         "Name": "Solitude Soul",
+         "Name": "Rishav Pagaria",
+         "ReferralCode": "KZN320948",
          "Score": 0
         },
         {
          "Rank": 187,
-         "ReferralCode": "KZN320951",
-         "Name": "Mohd Urooj Karim",
+         "Name": "Solitude Soul",
+         "ReferralCode": "KZN320949",
          "Score": 0
         },
         {
          "Rank": 188,
-         "ReferralCode": "KZN320953",
-         "Name": "Dron Beria",
+         "Name": "Mohd Urooj Karim",
+         "ReferralCode": "KZN320951",
          "Score": 0
         },
         {
          "Rank": 189,
-         "ReferralCode": "KZN320954",
-         "Name": "Gargi Sonawane",
+         "Name": "Dron Beria",
+         "ReferralCode": "KZN320953",
          "Score": 0
         },
         {
          "Rank": 190,
-         "ReferralCode": "KZN320955",
-         "Name": "Himanshi Agarwal",
+         "Name": "Gargi Sonawane",
+         "ReferralCode": "KZN320954",
          "Score": 0
         },
         {
          "Rank": 191,
-         "ReferralCode": "KZN320956",
-         "Name": "Umang Pednekar",
+         "Name": "Himanshi Agarwal",
+         "ReferralCode": "KZN320955",
          "Score": 0
         },
         {
          "Rank": 192,
-         "ReferralCode": "KZN320957",
-         "Name": "Nivrutti Padekar",
+         "Name": "Umang Pednekar",
+         "ReferralCode": "KZN320956",
          "Score": 0
         },
         {
          "Rank": 193,
-         "ReferralCode": "KZN320958",
-         "Name": "Bhawna Kumari",
+         "Name": "Nivrutti Padekar",
+         "ReferralCode": "KZN320957",
          "Score": 0
         },
         {
          "Rank": 194,
-         "ReferralCode": "KZN320959",
-         "Name": "Om Aradhya",
+         "Name": "Bhawna Kumari",
+         "ReferralCode": "KZN320958",
          "Score": 0
         },
         {
          "Rank": 195,
-         "ReferralCode": "KZN320960",
-         "Name": "Atul Mishra BBA",
+         "Name": "Om Aradhya",
+         "ReferralCode": "KZN320959",
          "Score": 0
         },
         {
          "Rank": 196,
-         "ReferralCode": "KZN320961",
-         "Name": "Mahima Shukla",
+         "Name": "Atul Mishra BBA",
+         "ReferralCode": "KZN320960",
          "Score": 0
         },
         {
          "Rank": 197,
-         "ReferralCode": "KZN320962",
          "Name": "Ankita Chordiya",
+         "ReferralCode": "KZN320962",
          "Score": 0
         },
         {
          "Rank": 198,
-         "ReferralCode": "KZN320963",
          "Name": "Balasai Marisetti",
+         "ReferralCode": "KZN320963",
          "Score": 0
         },
         {
          "Rank": 199,
-         "ReferralCode": "KZN320964",
          "Name": "Kajal Kumari",
+         "ReferralCode": "KZN320964",
          "Score": 0
         }
        ]
