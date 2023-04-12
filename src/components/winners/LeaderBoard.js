@@ -81,6 +81,8 @@ const Winners = () => {
           <form onSubmit={handleSearch} >
             <input type="text" placeholder="Search by Referral" value={searchName} onChange={(e) => setSearchName(e.target.value)} className="form-control search  mr-1" />
           </form></div> */}
+
+          <center class="pt-5 pb-3"><h1>Group wise Top Performers</h1></center>
       <table className="table table-borderless mt-3" style={{width:"94.5%"}}>
         <thead>
           <tr style={{color:"white"}}>
