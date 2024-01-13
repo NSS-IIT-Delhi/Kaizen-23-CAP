@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
       <br/> */}
       <div className="row WebLink" style={{fontFamily: 'Merriweather'}}>
-        <a href='https://kaizeniitd.org' target="_blank" rel="noopener noreferrer">KAIZEN'23 IIT Delhi</a>
+        <a href='https://kaizeniitd.org' target="_blank" rel="noopener noreferrer">KAIZEN'24 IIT Delhi</a>
       </div>
       <p className='pt-3 team' onClick={team}>Developed by Kaizen Tech Team</p>
     </footer>

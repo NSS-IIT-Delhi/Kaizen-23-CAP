@@ -19,7 +19,7 @@ const WhyCAP = ({id}) => {
           <div className="icon-box   cap-cards">
             <div className="icon"><i class="fa-solid fa-star"></i></div>
             <h4 className="text-gradient">IIT Delhi events</h4>
-            <p>Top performing CAs will get a chance to visit IIT Delhi Campus and attend Kaizen'23.
+            <p>Top performing CAs will get a chance to visit IIT Delhi Campus and attend Kaizen'24.
             </p>
           </div>
         </div>

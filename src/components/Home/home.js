@@ -51,7 +51,7 @@ export default function Home(){
           <nav class={`navbar navbar-expand-md navbar-fixed-top navbar-default pt-${scrolled ? 0:2}`}>
             <div class="container-fluid">
               <a class="navbar-brand px-4" href="https://kaizeniitd.org"><img width={50} class="logo" alt="Kaizen" src={logo}/></a>
-              <a class="ham-link float-left" href="https://kaizeniitd.org">Kaizen'23</a>
+              <a class="ham-link float-left" href="https://kaizeniitd.org">Kaizen'24</a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <div class="menubar">

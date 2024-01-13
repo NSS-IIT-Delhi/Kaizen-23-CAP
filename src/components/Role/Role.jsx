@@ -29,7 +29,7 @@ export default function Role({id}) {
     {
       title: "Social Media",
       content:
-        "As a campus ambassador, your primary role is to spread awareness about the event Kaizen'23 among your peers and other students in your network.",
+        "As a campus ambassador, your primary role is to spread awareness about the event Kaizen'24 among your peers and other students in your network.",
       // img: social,
       img: socialmedia,
     },
