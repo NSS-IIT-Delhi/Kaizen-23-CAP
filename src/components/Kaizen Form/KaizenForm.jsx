@@ -4922,7 +4922,7 @@ export default class KaizenForm extends React.Component {
                     </div>
                   </fieldset>
                 </div>
-                <div class="row">
+                <div class="row ">
                   <fieldset className="pure-group" class="col-md-6">
                     <div class="container">
                       <label htmlFor="Stream" data-aos="fade-up">
